@@ -1,0 +1,59 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.teaser {
+    display: flex;
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+.teaser-text {
+    width: 50%;
+}
+
+.teaser-image {
+    width: 50%;
+}
+
+.teaser img {
+    height: 400px;
+}
+
+.teaser {
+    text-align: center;
+}
+
+.teaser-title {
+    font-size: 29pt;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.teaser-description {
+    padding: 30px;
+}
+
+.features {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature img {
+    width: 70px;
+}
+
+.feature-title {
+    font-weight: bold;
+}
