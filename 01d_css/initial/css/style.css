@@ -1,68 +1,132 @@
 * {
     font-family: Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
+    line-height: 150%;
 }
 
-body {
+.fixed-width {
     width: 1000px;
     margin: auto;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 80px;
+    display: flex;
+}
+
+header img {
+    height: inherit;
+}
+
+header nav {
+    /* Let navigation take the remaining size in this row */
+    flex-grow: 1;
+    /* Align navigation items on the right side */
+    text-align: right;
+    margin: auto;
+}
+
+header nav a {
+    margin: 0 20px;
+}
+
+header nav a:visited, header nav a:link, header nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
 .teaser {
     display: flex;
-    margin: 50px 0;
-    overflow: hidden;
-}
-
-.teaser-text {
-    width: 50%;
-}
-
-.teaser-image {
-    width: 50%;
-}
-
-.teaser img {
-    height: 400px;
-}
-
-.teaser {
-    text-align: center;
 }
 
 .teaser-title {
-    font-size: 29pt;
+    font-size: 2.4rem;
     font-weight: bold;
-    padding: 30px;
+    line-height: 120%;
 }
 
-.teaser-description {
-    padding: 30px;
+.teaser-action {
+    text-align: center;
+}
+
+.teaser-action button {
+    margin: 40px 0;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
 }
 
 .features {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    margin: 50px 50px;
     text-align: center;
-    margin: 50px;
-}
-
-.feature {
-    margin: 20px;
 }
 
 .feature img {
-    width: 70px;
+    height: 80px;
 }
 
 .feature-title {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
-header img {
-    height: 70px;
+footer {
+    background-color: #4d4d4d;
+    color: white;
 }
 
-
-header {
+.footer-area {
     display: flex;
+    padding: 30px 0;
+}
+
+.footer-element {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin:auto;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    margin: 0 20px;
+    font-size: 0.8rem;
+}
+
+.footer-nav a:link, .footer-nav a:visited, .footer-nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer img {
+    height: 50px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 0.8rem;
 }

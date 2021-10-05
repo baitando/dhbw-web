@@ -2,24 +2,26 @@
 <html lang="de">
 <head>
     <title>TODO</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
-    <img src="img/todo.png">
+<header class="fixed-width">
+    <img src="img/todo.png"/>
     <nav>
         <a href="aufgabenliste.html">App</a>
         <a href="preise.html">Preise</a>
     </nav>
 </header>
-<main>
+<main class="fixed-width">
     <div class="teaser">
-        <div class="teaser-text">
+        <div>
             <p class="teaser-title">Aufgaben verwalten so einfach wie nie zuvor</p>
-            <p class="teaser-description">Die App, die dir hilft Dinge zu erledigen anstatt sie vor dir herzuschieben.</p>
-            <button>Direkt loslegen</button>
+            <p class="teaser-text">Die App, die dir hilft Dinge zu erledigen anstatt sie vor dir herzuschieben.</p>
+            <div class="teaser-action">
+                <button>Direkt loslegen</button>
+            </div>
         </div>
-        <div class="teaser-image">
+        <div>
             <img src="img/startseite.jpeg"/>
         </div>
     </div>
@@ -44,10 +46,18 @@
 </main>
 
 <footer>
-    <img src="img/dhbw.png"/>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
