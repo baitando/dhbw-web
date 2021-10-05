@@ -57,3 +57,12 @@ body {
 .feature-title {
     font-weight: bold;
 }
+
+header img {
+    height: 70px;
+}
+
+
+header {
+    display: flex;
+}
