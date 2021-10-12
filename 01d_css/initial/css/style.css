@@ -47,6 +47,7 @@ header nav a:hover {
 
 .teaser {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .teaser-title {
@@ -55,17 +56,24 @@ header nav a:hover {
     line-height: 120%;
 }
 
+.teaser-text {
+    margin-right: 15px;
+}
+
 .teaser-action {
     text-align: center;
 }
 
-.teaser-action button {
-    margin: 40px 0;
+button {
     padding: 10px 50px;
     background-color: black;
     color: white;
     border-radius: 5px;
     border-color: black;
+}
+
+.teaser-action button {
+    margin: 40px 0;
 }
 
 .features {
@@ -88,6 +96,7 @@ header nav a:hover {
 footer {
     background-color: #4d4d4d;
     color: white;
+    margin-top: 20px;
 }
 
 .footer-area {

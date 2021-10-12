@@ -2,9 +2,10 @@
 <html lang="de">
 <head>
     <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="fixed-width">
     <a href="index.html">
         <img src="img/todo.png">
     </a>
@@ -13,8 +14,11 @@
         <a href="preise.html">Preise</a>
     </nav>
 </header>
-<main>
-    <h1>Datenschutz&shy;erkl&auml;rung</h1>
+<main class="fixed-width">
+    <div class="headline">
+        <h1>Datenschutz&shy;erkl&auml;rung</h1>
+    </div>
+
     <h2>1. Datenschutz auf einen Blick</h2>
     <h3>Allgemeine Hinweise</h3>
     <p>Die folgenden Hinweise geben einen einfachen &Uuml;berblick dar&uuml;ber, was mit Ihren personenbezogenen Daten
@@ -137,10 +141,18 @@
 </main>
 
 <footer>
-    <img src="img/dhbw.png"/>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>

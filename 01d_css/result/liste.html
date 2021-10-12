@@ -2,9 +2,10 @@
 <html lang="de">
 <head>
     <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="fixed-width">
     <a href="index.html">
         <img src="img/todo.png">
     </a>
@@ -13,50 +14,95 @@
         <a href="preise.html">Preise</a>
     </nav>
 </header>
-<main>
-    <h1>Offene Aufgaben</h1>
-    <a href="anlage.html">
-        <button>Neue Aufgabe anlegen</button>
-    </a>
-    <ul>
+<main class="fixed-width">
+
+    <div class="headline">
+        <h1>Offene Aufgaben</h1>
+        <a href="anlage.html">
+            <button>Neue Aufgabe anlegen</button>
+        </a>
+    </div>
+
+    <ul class="list-alltasks">
         <li>
-            <img src="img/unchecked-box.png"/>
-            <p>Milch einkaufen</p>
-            <p>Unbedingt darauf achten, dass wir f&uuml;r Cappuchino Milch mit 3,5% Fettanteil brauchen.</p>
-            <img src="img/faelligkeit.svg"/>
-            <p>10.10.2021</p>
-            <img src="img/verantwortlich.svg"/>
-            <p>Miriam Mustermann</p>
-            <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            <div class="list-task-checkbox">
+                <img src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Milch einkaufen</p>
+                <p class="list-task-notes">Unbedingt darauf achten, dass wir f&uuml;r Cappuchino Milch mit 3,5% Fettanteil brauchen.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <p>10.10.2021</p>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Miriam Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            </div>
         </li>
+
         <li>
-            <img src="img/unchecked-box.png"/>
-            <p>Geburtstagsgeschenk für Miriam besorgen</p>
-            <p>Ein gemeinsames Wein-Tasting in unserem Lieblingsladen w&uuml;nscht sie sich schon l&auml;nger.</p>
-            <img src="img/faelligkeit.svg"/>
-            <p>19.10.2021</p>
-            <img src="img/verantwortlich.svg"/>
-            <p>Max Mustermann</p>
-            <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            <div class="list-task-checkbox">
+                <img src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Geburtstagsgeschenk f&uuml;r Miriam besorgen</p>
+                <p class="list-task-notes">Ein gemeinsames Wein-Tasting in unserem Lieblingsladen w&uuml;nscht sie sich schon l&auml;nger.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <p>19.10.2021</p>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Max Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            </div>
         </li>
+
         <li>
-            <img src="img/unchecked-box.png"/>
-            <p>Altpapiertonne vor das Haus stellen</p>
-            <p>Nicht vergessen, die Tonne vom Nachbarn ebenfalls mit rauszustellen.</p>
-            <img src="img/faelligkeit.svg"/>
-            <p>23.10.2021</p>
-            <img src="img/verantwortlich.svg"/>
-            <p>Max Mustermann</p>
-            <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            <div class="list-task-checkbox">
+                <img src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Altpapiertonne vor das Haus stellen</p>
+                <p class="list-task-notes">Nicht vergessen, die Tonne vom Nachbarn ebenfalls mit rauszustellen.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <p>23.10.2021</p>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Max Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a href="anlage.html"><img src="img/bearbeiten.svg"/></a>
+            </div>
         </li>
     </ul>
 </main>
 
 <footer>
-    <img src="img/dhbw.png"/>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
+

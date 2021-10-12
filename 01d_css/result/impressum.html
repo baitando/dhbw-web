@@ -2,9 +2,10 @@
 <html lang="de">
 <head>
     <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="fixed-width">
     <a href="index.html">
         <img src="img/todo.png">
     </a>
@@ -13,8 +14,10 @@
         <a href="preise.html">Preise</a>
     </nav>
 </header>
-<main>
-    <h1>Impressum</h1>
+<main class="fixed-width">
+    <div class="headline">
+        <h1>Impressum</h1>
+    </div>
 
     <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
     <p>Muster GmbH<br/>
@@ -25,11 +28,11 @@
     <p>Handelsregister: HRB 1234<br/>
         Registergericht: Musterhausen</p>
 
-    <p>Vertreten durch:<br/>
+    <p><strong class="highlight">Vertreten durch:</strong><br/>
         Dr. Harry Mustermann<br/>
         Luise Beispiel</p>
 
-    <p>Vorsitzender des Aufsichtsrats:<br/>
+    <p><strong class="highlight">Vorsitzender des Aufsichtsrats:</strong><br/>
         Richard Amtmann</p>
 
     <h2>Kontakt</h2>
@@ -49,10 +52,18 @@
 </main>
 
 <footer>
-    <img src="img/dhbw.png"/>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>

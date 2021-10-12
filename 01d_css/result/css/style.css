@@ -47,6 +47,7 @@ header nav a:hover {
 
 .teaser {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .teaser-title {
@@ -55,17 +56,24 @@ header nav a:hover {
     line-height: 120%;
 }
 
+.teaser-text {
+    margin-right: 15px;
+}
+
 .teaser-action {
     text-align: center;
 }
 
-.teaser-action button {
-    margin: 40px 0;
+button {
     padding: 10px 50px;
     background-color: black;
     color: white;
     border-radius: 5px;
     border-color: black;
+}
+
+.teaser-action button {
+    margin: 40px 0;
 }
 
 .features {
@@ -88,6 +96,7 @@ header nav a:hover {
 footer {
     background-color: #4d4d4d;
     color: white;
+    margin-top: 20px;
 }
 
 .footer-area {
@@ -130,4 +139,194 @@ footer img {
 
 .copyright p {
     font-size: 0.8rem;
+}
+
+/* Exercise */
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 120%;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    /*margin-top: 40px;*/
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.headline {
+    display: flex;
+}
+
+.headline * {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headline a {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.list-alltasks {
+    padding: 0;
+}
+
+.list-alltasks li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.list-alltasks li {
+    display: flex;
+    padding: 10px 0;
+}
+
+.list-alltasks img {
+    width: 30px;
+    height: 100%;
+}
+
+.list-alltasks p {
+    margin: 0;
+}
+
+.list-alltasks div {
+    padding: 5px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.list-task-title {
+    font-weight: bold;
+}
+
+.list-task-notes {
+    font-style: italic;
+}
+
+.list-task-checkbox, .list-task-edit {
+    width: 5%;
+}
+
+.list-task-due {
+    width: 15%;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+}
+
+.list-task-responsible {
+    width: 25%;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+}
+
+.list-task-description {
+    width: 50%;
+}
+
+.list-task-due img, .list-task-due p, .list-task-responsible img,.list-task-responsible p {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.disabled-button {
+    background-color: inherit;
+    color: black;
+}
+
+button:hover {
+    color: black;
+    background-color: #e22329;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 30px;
+}
+
+form div p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+input {
+    padding: 5px;
+}
+
+.create-grp-title input {
+    width: 30%
+}
+
+.create-grp-notes input {
+    width: 100%
+}
+
+.create-grp-due input {
+    width: 20%;
+}
+
+.create-grp-responsible input {
+    width: 30%;
+}
+
+.create-grp-actions {
+    text-align: center;
+}
+
+.prices-overview {
+    display: flex;
+    margin: 70px;
+}
+
+.prices-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.prices-description {
+    text-align: center;
+}
+
+.prices-entry {
+    border: 2px solid #ddddde;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.prices-entry:nth-child(1) {
+    border-right: none;
+}
+
+.prices-entry:last-child {
+    border-left: none;
+}
+
+.prices-head {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ddddde;
+}
+
+.prices-head p {
+    margin: 0;
+    padding: 15px;
+}
+
+.prices-features {
+    padding-right: 15px;
 }

@@ -2,9 +2,10 @@
 <html lang="de">
 <head>
     <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="fixed-width">
     <a href="index.html">
         <img src="img/todo.png">
     </a>
@@ -13,41 +14,55 @@
         <a href="preise.html">Preise</a>
     </nav>
 </header>
-<main>
-    <h1>Aufgabe anlegen</h1>
+<main class="fixed-width">
+    <div class="headline">
+        <h1>Aufgabe anlegen</h1>
+    </div>
 
     <form>
-        <div>
+        <div class="create-grp-title">
             <label for="title">Titel*</label>
             <p>Tragen Sie hier eine kurze Zusammenfassung der Aufgabe ein.</p>
             <input id="title" type="text">
         </div>
-        <div>
+        <div class="create-grp-notes">
             <label for="notes">Notizen</label>
-            <p>Tragen Sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein k&ouml;nnten.</p>
+            <p>Tragen Sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein
+                k&ouml;nnten.</p>
             <input id="notes" type="text">
         </div>
-        <div>
+        <div class="create-grp-due">
             <label for="due">F&auml;lligkeitsdatum*</label>
             <p>Tragen Sie hier im Format TT.MM.JJJJ ein, bis wann die Aufgabe spätestens erledigt sein muss.</p>
             <input id="due" type="date">
         </div>
-        <div>
+        <div class="create-grp-responsible">
             <label for="responsible">Verantwortlich*</label>
             <p>Tragen Sie hier ein, wem die Aufgabe zugeordnet werden soll.</p>
             <input id="responsible" type="text">
         </div>
 
-        <a href="liste.html"><input type="button" value="Abbrechen" /></a>
-        <a href="liste.html"><input type="button" value="Anlegen" /></a>
     </form>
+
+    <div class="create-grp-actions">
+        <a href="liste.html"><button class="disabled-button">Abbrechen</button></a>
+        <a href="liste.html"><button>Anlegen</button></a>
+    </div>
 </main>
 
 <footer>
-    <img src="img/dhbw.png"/>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
