@@ -144,7 +144,9 @@ function createTaskFromInput(id) {
 
     // If no ID is provided, we create one
     if (!id) {
-        id = crypto.randomUUID();
+        // Demo failing Selenium test in Firefox
+        // id = crypto.randomUUID();
+        id = new Date().getTime();
     }
 
     return {

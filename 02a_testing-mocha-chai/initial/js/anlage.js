@@ -141,7 +141,7 @@ function createTaskFromInput(id) {
 
     // If no ID is provided, we create one
     if (!id) {
-        id = crypto.randomUUID();
+        id = new Date().getTime();
     }
 
     return {
