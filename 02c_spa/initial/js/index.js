@@ -15,7 +15,10 @@ var app = {
             ],
             teaser: {
                 title: 'Aufgaben verwalten so einfach wie nie zuvor',
-                description: 'Die App, die dir hilft Dinge zu erledigen anstatt sie vor dir herzuschieben.'
+                description: 'Die App, die dir hilft Dinge zu erledigen anstatt sie vor dir herzuschieben.',
+                image: 'img/startseite.jpeg',
+                actionUrl: 'liste.html',
+                actionLabel: 'Direkt loslegen'
             }
         }
     }
