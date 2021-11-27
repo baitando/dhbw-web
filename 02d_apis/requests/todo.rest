@@ -1,0 +1,47 @@
+POST https://dhbw-web-todo.azurewebsites.net/api/apps
+
+###
+
+GET https://dhbw-web-todo.azurewebsites.net/api/tasks/634e92c9-be8e-43ff-a8c6-f39e1d69ec0a
+x-api-key: ahirsch
+
+###
+
+GET https://dhbw-web-todo.azurewebsites.net/api/tasks
+x-api-key: ahirsch
+
+###
+
+POST https://dhbw-web-todo.azurewebsites.net/api/tasks
+Content-Type: application/json
+x-api-key: ahirsch
+
+{
+  "title": "My Title2",
+  "description": "My description",
+  "due": "2012-12-12",
+  "responsible": "Max Mustermann"
+}
+
+###
+
+PUT https://dhbw-web-todo.azurewebsites.net/api/tasks/f19bff84-029a-42d4-9e16-612d27ec20df
+Content-Type: application/json
+x-api-key: ahirsch
+
+{
+  "title": "Blabla123",
+  "description": "My description",
+  "due": "2012-12-12",
+  "responsible": "Max Mustermann"
+}
+
+###
+
+DELETE https://dhbw-web-todo.azurewebsites.net/api/tasks/f19bff84-029a-42d4-9e16-612d27ec20df
+x-api-key: ahirsch
+
+###
+
+DELETE https://dhbw-web-todo.azurewebsites.net/api/tasks
+x-api-key: ahirsch

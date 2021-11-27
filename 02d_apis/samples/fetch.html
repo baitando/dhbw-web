@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fetch API</title>
+</head>
+<body>
+
+<h1>Eingabe</h1>
+<form onsubmit="loadPerson()" action="#">
+    <label for="id">ID der Person</label>
+    <input type="text" id="id"/>
+    <input type="submit" value="Laden"/>
+</form>
+
+<h1>Ausgabe</h1>
+<div id="output"></div>
+
+<script type="application/javascript">
+
+    function loadPerson() {
+        let id = document.getElementById('id').value;
+
+        fetch(`https://swapi.dev/api/people/${id}`)
+            .then(response => response.json())
+            .then(data => document.getElementById('output').innerHTML = `
+                <p>Name: ${data.name}</p>
+                <p>URL: ${data.url}</p>
+            `);
+
+        document.getElementById('output').innerHTML = `
+        <p>Loading data. Please wait...</p>
+        `
+    }
+
+</script>
+
+</body>
+</html>

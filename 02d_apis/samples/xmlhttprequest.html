@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+
+<h1>Eingabe</h1>
+<form onsubmit="loadPerson()" action="#">
+    <label for="id">ID der Person</label>
+    <input type="text" id="id"/>
+    <input type="submit" value="Laden"/>
+</form>
+
+<h1>Ausgabe</h1>
+<div id="output"></div>
+
+<script type="application/javascript">
+
+    function loadPerson() {
+        let id = document.getElementById('id').value;
+
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            let data = JSON.parse(this.responseText);
+            document.getElementById('output').innerHTML = `
+                <p>Name: ${data.name}</p>
+                <p>URL: ${data.url}</p>
+            `
+        }
+        xhttp.open("GET", `https://swapi.dev/api/people/${id}`);
+        xhttp.send();
+
+        document.getElementById('output').innerHTML = `
+        <p>Loading data. Please wait...</p>
+        `
+    }
+
+</script>
+
+</body>
+</html>

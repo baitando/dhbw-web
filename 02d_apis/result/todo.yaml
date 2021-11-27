@@ -1,0 +1,77 @@
+openapi: 3.0.1
+info:
+  title: DHBW TODO
+  description: This is the API provided by the TODO app developed at DHBW.
+  version: 1.0.0
+
+servers:
+  - url: 'https://api.example.com'
+
+paths:
+  /tasks:
+    get:
+      summary: Returns a list of all tasks.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskList'
+    post:
+      summary: Create a new task.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Task'
+      responses:
+        201:
+          description: Created
+          headers:
+            Location:
+              schema:
+                type: string
+  /tasks/{task_id}:
+    put:
+      summary: Update an existing task.
+      parameters:
+        - in: path
+          required: true
+          name: task_id
+          description: ID of the task to update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Task'
+      responses:
+        204:
+          description: No Content
+
+components:
+  schemas:
+    TaskList:
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Task'
+    Task:
+      properties:
+        id:
+          type: string
+          example: 'my-task'
+        title:
+          type: string
+          example: 'My Task Title'
+        description:
+          type: string
+          example: 'This is the description of my task'
+        dueAt:
+          type: string
+          format: date
+          example: '2021-11-26'
+        responsible:
+          type: string
+          example: 'Max Mustermann'
