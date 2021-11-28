@@ -1,7 +1,7 @@
 export interface Task {
     id: string,
     title: string,
-    description: string,
+    notes: string,
     due: string,
     responsible: string
 }

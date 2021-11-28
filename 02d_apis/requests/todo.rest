@@ -18,8 +18,8 @@ Content-Type: application/json
 x-api-key: ahirsch
 
 {
-  "title": "My Title2",
-  "description": "My description",
+  "title": "My Title2231",
+  "notes": "My description",
   "due": "2012-12-12",
   "responsible": "Max Mustermann"
 }
@@ -32,7 +32,7 @@ x-api-key: ahirsch
 
 {
   "title": "Blabla123",
-  "description": "My description",
+  "notes": "My description",
   "due": "2012-12-12",
   "responsible": "Max Mustermann"
 }

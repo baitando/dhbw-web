@@ -23,7 +23,7 @@ export class TaskRepository {
             owner: this.entGen.String(owner),
             id: this.entGen.String(task.id),
             title: this.entGen.String(task.title),
-            description: this.entGen.String(task.description),
+            notes: this.entGen.String(task.notes),
             due: this.entGen.String(task.due),
             responsible: this.entGen.String(task.responsible),
         };
@@ -47,7 +47,7 @@ export class TaskRepository {
             owner: this.entGen.String(owner),
             id: this.entGen.String(task.id),
             title: this.entGen.String(task.title),
-            description: this.entGen.String(task.description),
+            notes: this.entGen.String(task.notes),
             due: this.entGen.String(task.due),
             responsible: this.entGen.String(task.responsible),
         };
@@ -75,7 +75,7 @@ export class TaskRepository {
                             const task: Task = {
                                 id: entry.id._,
                                 title: entry.title._,
-                                description: entry.description._,
+                                notes: entry.notes._,
                                 due: entry.due._,
                                 responsible: entry.responsible._
                             }
@@ -107,7 +107,7 @@ export class TaskRepository {
                                     {
                                         id: entry.id._,
                                         title: entry.title._,
-                                        description: entry.description._,
+                                        notes: entry.notes._,
                                         due: entry.due._,
                                         responsible: entry.responsible._
                                     }

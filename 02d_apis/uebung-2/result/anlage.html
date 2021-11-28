@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="initialize()">
+<header class="fixed-width">
+    <a href="index.html">
+        <img src="img/todo.png">
+    </a>
+    <nav>
+        <a href="liste.html">App</a>
+        <a href="preise.html">Preise</a>
+    </nav>
+</header>
+<main class="fixed-width">
+    <div class="headline">
+        <h1 id="page-title">Aufgabe anlegen</h1>
+    </div>
+
+    <form action="#">
+        <div class="create-grp-title">
+            <label for="title">Titel*</label>
+            <p>Tragen Sie hier eine kurze Zusammenfassung der Aufgabe ein.</p>
+            <input id="title" type="text">
+        </div>
+        <div class="create-grp-notes">
+            <label for="notes">Notizen</label>
+            <p>Tragen Sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein
+                k&ouml;nnten.</p>
+            <input id="notes" type="text">
+        </div>
+        <div class="create-grp-due">
+            <label for="due">F&auml;lligkeitsdatum*</label>
+            <p>Tragen Sie hier im Format TT.MM.JJJJ ein, bis wann die Aufgabe sp&auml;testens erledigt sein muss.</p>
+            <input id="due" type="date">
+        </div>
+        <div class="create-grp-responsible">
+            <label for="responsible">Verantwortlich*</label>
+            <p>Tragen Sie hier ein, wem die Aufgabe zugeordnet werden soll.</p>
+            <input id="responsible" type="text">
+        </div>
+
+    </form>
+
+    <div class="create-grp-actions">
+        <a href="liste.html"><button class="disabled-button">Abbrechen</button></a>
+        <button onclick="save()" id="save-btn">Anlegen</button>
+    </div>
+</main>
+
+<footer>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+<script src="js/common.js"></script>
+<script src="js/anlage.js"></script>
+</body>
+</html>

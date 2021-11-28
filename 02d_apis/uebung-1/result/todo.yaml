@@ -147,9 +147,9 @@ components:
         title:
           type: string
           example: 'My Task Title'
-        description:
+        notes:
           type: string
-          example: 'This is the description of my task'
+          example: 'This are the notes of my task'
         due:
           type: string
           format: date

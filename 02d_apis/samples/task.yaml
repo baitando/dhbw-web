@@ -1,0 +1,11 @@
+tasks:
+  - id: my-id
+    title: My Task
+    description: This is the description of my task
+    due: 2022-12-12
+    responsible: Max Mustermann
+  - id: my-id2
+    title: My Task 2
+    description: This is the description of my task2
+    due: 2022-12-13
+    responsible: Miriam Mustermann
