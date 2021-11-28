@@ -8,6 +8,7 @@ x-api-key: ahirsch
 ###
 
 GET https://dhbw-web-todo.azurewebsites.net/api/tasks
+Accept: application/json
 x-api-key: ahirsch
 
 ###

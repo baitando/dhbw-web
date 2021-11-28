@@ -55,6 +55,17 @@ paths:
             Location:
               schema:
                 type: string
+    delete:
+      summary: Deletes all tasks
+      responses:
+        '204':
+          description: No Content
+    parameters:
+      - in: header
+        name: x-api-key
+        required: true
+        schema:
+          type: string
   /tasks/{task_id}:
     get:
       summary: Get an existing task.
@@ -77,7 +88,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Task'
-
     put:
       summary: Update an existing task.
       parameters:
@@ -100,7 +110,23 @@ paths:
       responses:
         204:
           description: No Content
-
+    delete:
+      summary: Delete an existing task.
+      parameters:
+        - in: header
+          name: x-api-key
+          required: true
+          schema:
+            type: string
+        - in: path
+          required: true
+          name: task_id
+          description: ID of the task to update
+          schema:
+            type: string
+      responses:
+        204:
+          description: No Content
 components:
   schemas:
     App:
