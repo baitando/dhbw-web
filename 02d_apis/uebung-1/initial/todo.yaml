@@ -5,9 +5,20 @@ info:
   version: 1.0.0
 
 servers:
-  - url: 'https://api.example.com'
+  - url: 'https://dhbw-web-todo.azurewebsites.net/api'
 
 paths:
+  /apps:
+    post:
+      summary: Create a new app.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/App'
+
   /tasks:
     get:
       summary: Returns a list of all tasks.
@@ -53,6 +64,10 @@ paths:
 
 components:
   schemas:
+    App:
+      properties:
+        apiKey:
+          type: string
     TaskList:
       properties:
         items:
