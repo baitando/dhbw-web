@@ -40,6 +40,8 @@ paths:
           required: true
           name: task_id
           description: ID of the task to update
+          schema:
+            type: string
       requestBody:
         content:
           application/json:
