@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Routing Sample</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div id="app">
+    <header>
+        <nav>
+            <router-link to="/">Go to Home</router-link>
+            <router-link to="/about">Go to About</router-link>
+        </nav>
+    </header>
+    <main>
+        <router-view></router-view>
+    </main>
+</div>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/vue-router@4"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

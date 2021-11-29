@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>TODO</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="app">
+    <header class="fixed-width">
+        <a href="index.html">
+            <img src="img/todo.png">
+        </a>
+        <nav>
+            <a href="liste.html">App</a>
+            <a href="preise.html">Preise</a>
+        </nav>
+    </header>
+
+    <main class="fixed-width">
+        <div class="teaser row my-3">
+            <teaser v-bind:teaser="teaser"></teaser>
+        </div>
+
+        <div id="features" class="features row my-5">
+            <feature v-for="feature in features"
+                     v-bind:feature="feature"></feature>
+        </div>
+
+    </main>
+</div>
+<footer>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="js/components/feature.js"></script>
+<script src="js/components/teaser.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
