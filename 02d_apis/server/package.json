@@ -17,7 +17,9 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
+    "@types/node": "^17.0.23",
     "azure-storage": "^2.10.5",
+    "json-rpc-2.0": "^1.1.0",
     "uuid": "^8.3.2"
   }
 }
