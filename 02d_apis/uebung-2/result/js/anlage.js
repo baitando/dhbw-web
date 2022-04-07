@@ -141,27 +141,6 @@ function updateExistingTask(task) {
 }
 
 /**
- * Replace a task with a specific ID in a task array.
- *
- * @param tasks The array in which the task should be replaced.
- * @param idToReplace The ID of the task to replace.
- * @param updatedTask The task object replacing the task with the given ID.
- */
-function replaceTask(tasks, idToReplace, updatedTask) {
-    if (tasks && idToReplace && updatedTask) {
-        for (var i = 0; i < tasks.length; i++) {
-            if (tasks[i].id === idToReplace) {
-                tasks[i] = updatedTask
-                return;
-            }
-        }
-    } else {
-        console.error("Invalid arguments to replace task");
-    }
-    console.error(`Element with ID not known: ${idToReplace}`);
-}
-
-/**
  * Create a task object from the values of the form input fields related to a task.
  *
  * @returns {{notes: (*|undefined), due: (*|undefined), responsible: (*|undefined), id: string, title: (*|undefined)}} Task object.

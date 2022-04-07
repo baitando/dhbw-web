@@ -68,37 +68,18 @@ function appendById(id, elementToAppend) {
 function deleteTask(id) {
     console.debug(`Attempting to delete task with ID: ${id}`);
 
-    var tasks = loadStoredTasks();
-    if (tasks && id) {
-        for (var i = 0; i < tasks.length; i++) {
-            if (tasks[i].id === id) {
-                tasks.splice(i, 1);
-                storeTasks(tasks);
-                cleanTaskList();
-                showTasks(tasks);
-
-                console.info(`Deleted task with ID: ${id}`);
-
-                break;
-            }
+    fetch(`https://dhbw-web-todo.azurewebsites.net/api/tasks/${id}`, {
+        method: 'delete',
+        headers: {
+            'X-Api-key': 'ahirsch'
         }
-    } else {
-        console.error("Invalid arguments to remove task");
-    }
-}
-
-/**
- * Remove all tasks from the task list.
- */
-function cleanTaskList() {
-
-    var taskList = document.getElementById("tasks");
-    if (taskList) {
-        taskList.innerHTML = "";
-        console.debug("Cleared task list");
-    } else {
-        console.error("Task list not found");
-    }
+    })
+        .then(response => {
+                console.info(`Deleting task finished with status: ${response.status}`)
+                location.href = "liste.html";
+            }
+        )
+        .catch(error => console.error(`Creating new task failed: ${error}`));
 }
 
 /**
