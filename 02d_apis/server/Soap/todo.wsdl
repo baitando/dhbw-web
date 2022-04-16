@@ -1,0 +1,69 @@
+<definitions name="Todo"
+             targetNamespace="https://dhbw-web-todo.azurewebsites.net/todo.wsdl"
+             xmlns:tns="https://dhbw-web-todo.azurewebsites.net/todo.wsdl"
+             xmlns:xsd="https://dhbw-web-todo.azurewebsites.net/todo.xsd"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+    <types>
+        <schema targetNamespace="https://dhbw-web-todo.azurewebsites.net/todo.xsd"
+                xmlns="http://www.w3.org/2001/XMLSchema">
+            <element name="GetAllTasksRequest">
+                <complexType>
+                    <all>
+                        <element name="owner" type="string"/>
+                    </all>
+                </complexType>
+            </element>
+            <element name="Task">
+                <complexType>
+                    <all>
+                        <element name="id" type="string"/>
+                        <element name="title" type="string"/>
+                        <element name="notes" type="string"/>
+                        <element name="due" type="string"/>
+                        <element name="responsible" type="string"/>
+                    </all>
+                </complexType>
+            </element>
+            <element name="GetAllTasksResponse">
+            </element>
+        </schema>
+    </types>
+
+    <message name="GetAllTasksInput">
+        <part name="body" element="xsd:GetAllTasksRequest"/>
+    </message>
+
+    <message name="GetAllTasksOutput">
+        <part name="body" element="xsd:GetAllTasksResponse"/>
+    </message>
+
+    <portType name="TodoPortType">
+        <operation name="GetAllTasks">
+            <input message="tns:GetAllTasksInput"/>
+            <output message="tns:GetAllTasksOutput"/>
+        </operation>
+    </portType>
+
+    <binding name="TodoSoapBinding" type="tns:TodoPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetAllTasks">
+            <soap:operation soapAction="https://dhbw-web-todo.azurewebsites.net/GetAllTasks"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+
+    <service name="TodoService">
+        <documentation>DHBW Todo Service</documentation>
+        <port name="TodoPort" binding="tns:TodoSoapBinding">
+            <soap:address location="https://dhbw-web-todo.azurewebsites.net/api/soap"/>
+        </port>
+    </service>
+
+</definitions>

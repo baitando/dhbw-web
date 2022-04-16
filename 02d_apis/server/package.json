@@ -2,12 +2,12 @@
   "name": "",
   "version": "",
   "scripts": {
-    "build": "tsc",
-    "build:production": "npm run prestart && npm prune --production",
+    "build": "tsc && cp Soap/todo.wsdl dist/Soap",
+    "build:production": "npm run prestart && npm prune --production && cp Soap/todo.wsdl dist/Soap",
     "watch": "tsc --w",
     "prestart": "npm run build && func extensions install",
     "start:host": "func start",
-    "start": "npm-run-all --parallel start:host watch",
+    "start": "npm-run-all --parallel start:host watch && cp Soap/todo.wsdl dist/Soap",
     "test": "echo \"No tests yet...\""
   },
   "description": "",
@@ -18,8 +18,11 @@
   },
   "dependencies": {
     "@types/node": "^17.0.23",
+    "axios": "^0.26.1",
     "azure-storage": "^2.10.5",
+    "express": "^4.17.3",
     "json-rpc-2.0": "^1.1.0",
+    "soap": "^0.43.0",
     "uuid": "^8.3.2"
   }
 }

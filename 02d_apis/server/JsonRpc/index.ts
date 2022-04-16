@@ -16,9 +16,13 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     server.addMethod("echo", params => params["text"]);
 
     const response = await server.receiveJSON(JSON.stringify(req.body));
-    context.res = {
-        status: "200",
-        body: response
+    try {
+        context.res = {
+            status: "200",
+            body: response
+        }
+    } catch (error) {
+        console.error(error)
     }
 };
 
