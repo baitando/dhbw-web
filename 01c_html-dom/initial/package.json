@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon http-server"
+    "dev": "nodemon --exec http-server --watch index.html"
   },
   "author": "",
   "license": "ISC",
