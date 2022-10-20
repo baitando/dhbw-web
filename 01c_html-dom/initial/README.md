@@ -1,1 +1,1 @@
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/01c_html-dom/initial?file=index.html&terminal=dev&title='Aufgabe Modul 1c (HTML und DOM) '')
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/01c_html-dom/initial?file=index.html&terminal=dev&title='Aufgabe Modul 1c (HTML und DOM)')
