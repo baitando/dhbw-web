@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "stackblitz": "serve"
+    "stackblitz": "http-server"
   },
   "author": "Andreas Rehmann",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^14.0.1"
+    "http-server": "^14.1.1"
   }
 }
