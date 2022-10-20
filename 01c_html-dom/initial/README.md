@@ -1,1 +1,1 @@
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/01c_html-dom/initial?file=index.html&terminal=stackblitz&title=Aufgabe%20Modul%201c%20%28HTML%20und%20DOM%29)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/baitando/dhbw-web/tree/master/01c_html-dom/initial?file=index.html&terminal=stackblitz&title=Aufgabe%20Modul%201c%20%28HTML%20und%20DOM%29)
