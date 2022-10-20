@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon --exec http-server --watch index.html"
+    "dev": "live-server --port=80"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^14.1.1",
-    "nodemon": "^2.0.20"
+    "live-server": "^1.2.2"
   }
 }
