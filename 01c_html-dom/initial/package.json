@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "live-server --port=80 --no-browser --cors",
-    "stackblitz": "nodemon --exec http-server --watch index.html"
+    "stackblitz": "http-server"
   },
-  "author": "",
+  "author": "Andreas Rehmann",
   "license": "ISC",
   "devDependencies": {
-    "@compodoc/live-server": "^1.2.3",
-    "http-server": "^14.1.1",
-    "nodemon": "^2.0.20"
+    "http-server": "^14.1.1"
   }
 }
