@@ -1,1 +1,1 @@
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/01e_javascript/uebung-1/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%201%20Modul%201d%20%28Javascript%29)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/01e_javascript/uebung-1/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%201%20Modul%201e%20%28Javascript%29)
