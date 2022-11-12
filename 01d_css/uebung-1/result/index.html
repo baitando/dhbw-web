@@ -1,0 +1,80 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body style="padding-left: 100px; padding-right: 100px;">
+<h1 id="start">&Uuml;bungen zum Thema CSS</h1>
+<p>Die nachfolgenden Aufgaben dienen dem Erlernen von CSS.</p>
+
+<h2>Aufbau von CSS-Anweisungen</h2>
+<p>Mit Hilfe verschiedener <span class="selektor">Selektoren</span> k&ouml;nnen Bestandteile des HTML-Dokuments ausgew&auml;hlt werden, um sie im n&auml;chsten Schritt zu <span class="gestaltung">gestalten</span>.
+</p>
+
+<p>
+<div><span class="selektor">.wichtig</span> {</div>
+<div class="gestaltung">&nbsp;&nbsp;&nbsp;text-decoration: underline;</div>
+<div>}</div>
+</p>
+
+<h2>Selektoren und Gestaltung im Allgemeinen</h2>
+<ol>
+    <li>Die Selektion kann mittels <span class="selektor">.meine-klasse</span> anhand der Klasse namens meine-klasse
+        erfolgen. Diese Art der Selektion ist gut geeignet, wenn mehrere Elemente auf einer Seite &auml;hnlich
+        dargestellt werden sollen. Testen Sie das bitte, indem Sie den Elementen mit der Klasse <span class="selektor">selektor</span> die Farbe blue und Fettschrift zuordnen. Den Elementen mit der Klasse <span class="gestaltung">gestaltung</span> wei&szlig;en Sie bitte die Farbe darkred und Fettschrift zu.
+    </li>
+    <li>Die Selektion kann anhand einer ID erfolgen. Im Falle eines Elements mit der ID meine-id erfolgt die Selektion &uuml;ber <span
+            class="selektor">#meine-id</span>. Testen Sie das bitte, indem Sie dem Element mit der ID <span
+            id="test-id">test-id</span> die Farbe orange und Fettschrift zuweisen.
+    </li>
+    <li>M&ouml;chte man alle Elemente selektieren, die einen bestimmten Tag wie z.B. &lt;h2&gt; verwenden, so lautet der
+        Selektor im Beispiel <span class="selektor">h2</span>. Testen Sie das bitte, indem Sie den Text aller h2-Elemente unterstreichen.
+    </li>
+    <li>Mit Hilfe von Pseudoklassen k&ouml;nnen Zust&auml;nde von Elementen bei der Selektion ber&uuml;cksichtigt werden. H&auml;ufig wird das z.B. f&uuml;r Links verwendet. Der Zustand eines Link &uuml;ber dem der Mauszeiger steht, wird &uuml;ber <span class="selektor">a:hover</span> selektiert. Testen Sie das bitte, indem Sie alle <a href="https://www.dhbw-vs.de" target="_blank">Links</a> in der Farbe red und unterstrichen darstellen, sobald sich der Mauszeiger &uuml;ber dem Link befindet.</li>
+    <li>Es k&ouml;nnen auch mehrere Selektoren f&uuml;r die gleichen Anweisungen verwendet werden, indem die Selektoren mit "," aneinandergereiht werden. Diese werden logisch gesehen mit "oder" verkn&uuml;pft. Ein Beispiel ist <span class="selektor">.eine-klasse, .andere-klasse</span>. Testen Sie das bitte, indem Sie allen Elementen mit der Klasse <span class="erste-klasse">erste-klasse</span> oder <span class="zweite-klasse">zweite-klasse</span> die Farbe green und Fettschrift zuweisen. Kombinieren Sie dazu die beiden Selektoren entsprechend.</li>
+    <li>Ein Selektor kann auch aus mehreren Bestandteilen zusammengesetzt sein, die eine "und" Beziehung abbilden. Dazu werden die beiden Selektoren ohne Leerzeichen aneinandergereiht. Ein Beispiel ist <span class="selektor">.erste-klasse.zweite-klasse</span>. In diesem Fall werden nur Elemente selektiert, denen beide Klassen gleichzeitig zugeordnet sind</li>. Testen Sie das bitte, indem Sie allen Elementen mit den gleichzeitig zugewiesenen Klassen <span class="erste-klasse zweite-klasse">erste-klasse und zweite-klasse</span> die Farbe purple und Fettschrift zuweisen.
+</ol>
+
+<h2>CSS Box-Model</h2>
+
+<p>Die folgenden Arbeitsschritte beziehen sich alle auf das Element mit der ID box.</p>
+<p id="box">Das ist der Beispieltext.</p>
+
+<ol>
+    <li>Erstellen Sie einen Rahmen mit einer Breite von 10px, bei dem die Linie durchgezogen ist und der die Farbe red hat.</li>
+    <li>Der Text soll einen Abstand von mindestens 30px vom Rahmen haben.</li>
+    <li>Der Rahmen soll einen Abstand von 30px von allen anderen Elementen haben.</li>
+    <li>Zentrieren Sie den Text horizontal in der Box.</li>
+</ol>
+
+<h2>Layout</h2>
+
+<ol>
+    <li>Lassen Sie das div Element mit der ID <div id="inline-div">inline-div</div> inline darstellen, anstatt wie gew&ouml;hnlich als Blockelement.</li>
+    <li>Richten Sie das Element mit der ID flexbox mit Hilfe des Flexbox Layouts so aus, dass die Elemente nebeneinander anstatt untereinander angezeigt werden.</li>
+    <li>Richten Sie das Element mit der ID grid mit Hilfe des Grid Layouts so aus, dass die Elemente in zwei Spalte mit je 200px Breite dargestellt werden.</li>
+    <li>Positionieren Sie den nachfolgenden Link zum Anfang des Dokuments so, dass der Link zu jedem Zeitpunkt 100px vom unteren und 100px vom rechten Rand positioniert ist.<a href="#start" id="start-link">Start</a></li>
+</ol>
+
+<h3>Beispiel der Darstellung mit Flexbox</h3>
+
+<div id="flexbox">
+    <div>Erste Box</div>
+    <div>Zweite Box</div>
+    <div>Dritte Box</div>
+</div>
+
+<h3>Beispiel der Darstellung mit Grid Layout</h3>
+
+<div id="grid">
+    <div>Erste Box</div>
+    <div>Zweite Box</div>
+    <div>Dritte Box</div>
+</div>
+
+<h3>Beispiele der umflie&szlig;enden Darstellung</h3>
+
+<div style="background-color: blue" id="float">Erste Box</div>
+<p>Zweite Box mit einem etwas l&auml;ngeren Text, der die erste Box umflie&szlig;t. Man kann hier sehr sch&ouml;n sehen, dass die blaue Box auf der rechten Seite stehen bleibt und dass der lange Text um diese Box herum flie&szlig;t. Sollten Sie einen sehr breiten Bildschirm verwenden und diesen Effekt noch nicht sehen, bietet es sich an, die Breite des Browser-Fensters zu verkleinern.</p>
+
+</body>
+</html>

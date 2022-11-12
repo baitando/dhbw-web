@@ -1,0 +1,63 @@
+.selektor {
+    color: blue;
+    font-weight: bold;
+}
+
+.gestaltung {
+    color: darkred;
+    font-weight: bold;
+}
+
+#test-id {
+    color: orange;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.erste-klasse, .zweite-klasse {
+    color: green;
+    font-weight: bold;
+}
+
+.erste-klasse.zweite-klasse {
+    color: purple;
+    font-weight: bold;
+}
+
+#box {
+    padding: 30px;
+    border: 10px solid red;
+    margin: 30px;
+    text-align: center;
+}
+
+#inline-div {
+    display: inline;
+}
+
+#flexbox {
+    display: flex;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+#float {
+    float: right;
+}
+
+#start-link {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
