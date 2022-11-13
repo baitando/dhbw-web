@@ -6,53 +6,95 @@
 <h1 id="start">&Uuml;bungen zum Thema CSS</h1>
 <p>Die nachfolgenden Aufgaben dienen dem Erlernen von CSS.</p>
 
-<h2>Aufbau von CSS-Anweisungen</h2>
-<p>Mit Hilfe verschiedener <span class="selektor">Selektoren</span> k&ouml;nnen Bestandteile des HTML-Dokuments ausgew&auml;hlt werden, um sie im n&auml;chsten Schritt zu <span class="gestaltung">gestalten</span>.
-</p>
-
-<p>
-<div><span class="selektor">.wichtig</span> {</div>
-<div class="gestaltung">&nbsp;&nbsp;&nbsp;text-decoration: underline;</div>
-<div>}</div>
-</p>
-
 <h2>Selektoren und Gestaltung im Allgemeinen</h2>
 <ol>
-    <li>Die Selektion kann mittels <span class="selektor">.meine-klasse</span> anhand der Klasse namens meine-klasse
-        erfolgen. Diese Art der Selektion ist gut geeignet, wenn mehrere Elemente auf einer Seite &auml;hnlich
-        dargestellt werden sollen. Testen Sie das bitte, indem Sie den Elementen mit der Klasse <span class="selektor">selektor</span> die Farbe blue und Fettschrift zuordnen. Den Elementen mit der Klasse <span class="gestaltung">gestaltung</span> wei&szlig;en Sie bitte die Farbe darkred und Fettschrift zu.
+    <li>
+        <p>Selektieren Sie alle Elemente, denen die Klasse "meine-klasse" zugeordnet ist. Wei&szlig;en Sie diesen Elementen blaue Schriftfarbe und Fettschrift zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/cssref/sel_class.php" target="_blank">hier zum Selektor</a>, <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">hier zur Textfarbe</a> und <a href="https://www.w3schools.com/css/css_font_style.asp" target="_blank">hier zur Fettschrift</a>.</p>
+        <p>Test: <span class="meine-klasse">Dieser Text sollte blaue Schriftfarbe und Fettschrift verwenden.</span> </p>
     </li>
-    <li>Die Selektion kann anhand einer ID erfolgen. Im Falle eines Elements mit der ID meine-id erfolgt die Selektion &uuml;ber <span
-            class="selektor">#meine-id</span>. Testen Sie das bitte, indem Sie dem Element mit der ID <span
-            id="test-id">test-id</span> die Farbe orange und Fettschrift zuweisen.
+    <li>
+        <p>Selektieren Sie alle Elemente mit der ID "meine-id". Wei&szlig;en Sie diesen Elementen orange Schriftfarbe und Fettschrift zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/cssref/sel_id.php" target="_blank">hier zum Selektor</a>, <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">hier zur Textfarbe</a> und <a href="https://www.w3schools.com/css/css_font_style.asp" target="_blank">hier zur Fettschrift</a>.</p>
+        <p>Test: <span id="meine-id">Dieser Text sollte orange Schriftfarbe und Fettschrift verwenden.</span> </p>
     </li>
-    <li>M&ouml;chte man alle Elemente selektieren, die einen bestimmten Tag wie z.B. &lt;h2&gt; verwenden, so lautet der
-        Selektor im Beispiel <span class="selektor">h2</span>. Testen Sie das bitte, indem Sie den Text aller h2-Elemente unterstreichen.
+    <li>
+        <p>Selektieren Sie alle Elemente, die den Tag "h2" verwenden. Wei&szlig;en Sie diesen Elementen eine unterstrichene Schrift zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/cssref/sel_element.php" target="_blank">hier zum Selektor</a>
+            und <a href="https://www.w3schools.com/css/css_text_decoration.asp" target="_blank">hier zur Unterstreichung</a>.</p>
+        <p>Test: Betrachten Sie unter Anderem die &Uuml;berschrift dieses Aufgabenblocks und pr&uuml;fen Sie, ob diese unterstrichen ist.</p>
     </li>
-    <li>Mit Hilfe von Pseudoklassen k&ouml;nnen Zust&auml;nde von Elementen bei der Selektion ber&uuml;cksichtigt werden. H&auml;ufig wird das z.B. f&uuml;r Links verwendet. Der Zustand eines Link &uuml;ber dem der Mauszeiger steht, wird &uuml;ber <span class="selektor">a:hover</span> selektiert. Testen Sie das bitte, indem Sie alle <a href="https://www.dhbw-vs.de" target="_blank">Links</a> in der Farbe red und unterstrichen darstellen, sobald sich der Mauszeiger &uuml;ber dem Link befindet.</li>
-    <li>Es k&ouml;nnen auch mehrere Selektoren f&uuml;r die gleichen Anweisungen verwendet werden, indem die Selektoren mit "," aneinandergereiht werden. Diese werden logisch gesehen mit "oder" verkn&uuml;pft. Ein Beispiel ist <span class="selektor">.eine-klasse, .andere-klasse</span>. Testen Sie das bitte, indem Sie allen Elementen mit der Klasse <span class="erste-klasse">erste-klasse</span> oder <span class="zweite-klasse">zweite-klasse</span> die Farbe green und Fettschrift zuweisen. Kombinieren Sie dazu die beiden Selektoren entsprechend.</li>
-    <li>Ein Selektor kann auch aus mehreren Bestandteilen zusammengesetzt sein, die eine "und" Beziehung abbilden. Dazu werden die beiden Selektoren ohne Leerzeichen aneinandergereiht. Ein Beispiel ist <span class="selektor">.erste-klasse.zweite-klasse</span>. In diesem Fall werden nur Elemente selektiert, denen beide Klassen gleichzeitig zugeordnet sind</li>. Testen Sie das bitte, indem Sie allen Elementen mit den gleichzeitig zugewiesenen Klassen <span class="erste-klasse zweite-klasse">erste-klasse und zweite-klasse</span> die Farbe purple und Fettschrift zuweisen.
+    <li>
+        <p>Selektieren Sie alle Hyperlinks im Zustand, in dem sich der Mauszeiger auf dem Hyperlink befindet. Wei&szlig;en Sie diesen Elementen rote Schriftfarbe zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">hier zum Selektor</a>.</p>
+        <p>Test: <a href="https://www.dhbw-vs.de" target="_blank">Link</a></p>
+    </li>
+    <li>
+        <p>Selektieren Sie alle Elemente, denen die Klasse "erste-klasse" oder "zweite-klasse" zugewiesen sind. Wei&szlig;en Sie diesen Elementen gr&uuml;ne Schrift farbe und Fettschrift zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/cssref/sel_element_comma.php" target="_blank">hier zum Selektor</a>, <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">hier zur Textfarbe</a> und <a href="https://www.w3schools.com/css/css_font_style.asp" target="_blank">hier zur Fettschrift</a>.</p>
+        <p>Test: <span class="erste-klasse">Sowohl diese H&auml;lfte des Textes</span><span class="zweite-klasse"> als auch diese H&auml;lfte des Textes sollte gr&uuml;ne Schriftfarbe und Fettschrift verwenden.</span> </p>
+    </li>
+    <li>
+        <p>Selektieren Sie alle Elemente, denen die gleichzeitig die Klassen "erste-klasse" und "zweite-klasse" zugewiesen sind. Wei&szlig;en Sie diesen Elementen lila Schriftfarbe und Fettschrift zu.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/cssref/css_selectors.php" target="_blank">hier zum Selektor</a>, <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">hier zur Textfarbe</a> und <a href="https://www.w3schools.com/css/css_font_style.asp" target="_blank">hier zur Fettschrift</a>.</p>
+        <p>Test: <span class="erste-klasse zweite-klasse">Dieser Text sollte lila Schriftfarbe und Fettschrift verwenden.</span> </p>
+    </li>
 </ol>
 
 <h2>CSS Box-Model</h2>
 
-<p>Die folgenden Arbeitsschritte beziehen sich alle auf das Element mit der ID box.</p>
+<p>Die folgenden Arbeitsschritte beziehen sich alle auf das Element mit der ID "box".</p>
 <p id="box">Das ist der Beispieltext.</p>
 
 <ol>
-    <li>Erstellen Sie einen Rahmen mit einer Breite von 10px, bei dem die Linie durchgezogen ist und der die Farbe red hat.</li>
-    <li>Der Text soll einen Abstand von mindestens 30px vom Rahmen haben.</li>
-    <li>Der Rahmen soll einen Abstand von 30px von allen anderen Elementen haben.</li>
-    <li>Zentrieren Sie den Text horizontal in der Box.</li>
+    <li>
+        <p>Erstellen Sie einen Rahmen mit einer Breite von 10px, bei dem die Linie durchgezogen ist und der die Farbe red hat.
+        </p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">hier zum Rahmen</a>.</p>
+    </li>
+    <li>
+        <p>Stellen Sie sicher, dass der Text einen Abstand von mindestens 30px vom Rahmen hat.
+        </p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">hier zum Box Model</a>.</p>
+    </li>
+    <li>
+        <p>Stellen Sie sicher, dass die einen Abstand von mindestens 30px zu den angrenzenden Elementen hat.
+        </p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">hier zum Box Model</a>.</p>
+    </li>
+    <li>
+        <p>Zentrieren Sie den Text horizontal in der Box.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_text_align.asp" target="_blank">hier zur Zentrierung des Textes</a>.</p>
+    </li>
 </ol>
 
 <h2>Layout</h2>
 
 <ol>
-    <li>Lassen Sie das div Element mit der ID <div id="inline-div">inline-div</div> inline darstellen, anstatt wie gew&ouml;hnlich als Blockelement.</li>
-    <li>Richten Sie das Element mit der ID flexbox mit Hilfe des Flexbox Layouts so aus, dass die Elemente nebeneinander anstatt untereinander angezeigt werden.</li>
-    <li>Richten Sie das Element mit der ID grid mit Hilfe des Grid Layouts so aus, dass die Elemente in zwei Spalte mit je 200px Breite dargestellt werden.</li>
-    <li>Positionieren Sie den nachfolgenden Link zum Anfang des Dokuments so, dass der Link zu jedem Zeitpunkt 100px vom unteren und 100px vom rechten Rand positioniert ist.<a href="#start" id="start-link">Start</a></li>
+    <li>
+        <p>Lassen Sie das Element mit der ID "block-span" als Blockelement darstellen, anstatt wie gew&ouml;hnlich als Inlineelement.
+        </p>
+        <p>
+            Hinweise finden Sie <a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank">hier zur Display-Eigenschaft</a>.
+        </p>
+        <p>Test: Wenn das zweite Vorkommen des Wortes "dargestellt" in diesem Satz in einer eigenen Zeile <span id="block-span">dargestellt</span> wird, hat alles funktioniert.</p>
+    </li>
+    <li>
+        <p>Richten Sie das Element mit der ID "flexbox" mit Hilfe des Flexbox Layouts so aus, dass die Elemente nebeneinander anstatt untereinander angezeigt werden.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">hier zur Flexbox</a>.</p>
+        <p>Test: Werfen Sie einen Blick auf den Abschnitt "Beispiel der Darstellung mit Flexbox". Wenn alle Elemente in einer Zeile angezeigt werden, war die Umsetzung erfolgreich.</p>
+    </li>
+    <li>
+        <p>Richten Sie das Element mit der ID "grid" mit Hilfe des Grid Layouts so aus, dass die Elemente in zwei Spalte mit je 200px Breite dargestellt werden.</p>
+        <p>Hinweise finden Sie <a href="https://www.w3schools.com/css/css_grid.asp" target="_blank">hier zum Grid-Layout</a>.</p>
+        <p>Test: Werfen Sie einen Blick auf den Abschnitt "Beispiel der Darstellung mit Flexbox". Wenn alle Elemente in einer Zeile angezeigt werden, war die Umsetzung erfolgreich.</p>
+    </li>
+    <li>
+        <p>Positionieren Sie den nachfolgenden Link zum Anfang des Dokuments so, dass der Link zu jedem Zeitpunkt 100px vom unteren und 100px vom rechten Rand positioniert ist.</p>
+        <p>
+            Hinweise finden Sie <a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank">hier zur Display-Eigenschaft</a>.
+        </p>
+        <a href="#start" id="start-link">Start</a></li>
 </ol>
 
 <h3>Beispiel der Darstellung mit Flexbox</h3>
@@ -73,7 +115,7 @@
 
 <h3>Beispiele der umflie&szlig;enden Darstellung</h3>
 
-<div style="background-color: blue" id="float">Erste Box</div>
+<div style="background-color: blue; color: white;" id="float">Erste Box</div>
 <p>Zweite Box mit einem etwas l&auml;ngeren Text, der die erste Box umflie&szlig;t. Man kann hier sehr sch&ouml;n sehen, dass die blaue Box auf der rechten Seite stehen bleibt und dass der lange Text um diese Box herum flie&szlig;t. Sollten Sie einen sehr breiten Bildschirm verwenden und diesen Effekt noch nicht sehen, bietet es sich an, die Breite des Browser-Fensters zu verkleinern.</p>
 
 </body>
