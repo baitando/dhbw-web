@@ -1,14 +1,9 @@
-.selektor {
+.meine-klasse {
     color: blue;
     font-weight: bold;
 }
 
-.gestaltung {
-    color: darkred;
-    font-weight: bold;
-}
-
-#test-id {
+#meine-id {
     color: orange;
     font-weight: bold;
 }
