@@ -34,8 +34,8 @@ a:hover {
     text-align: center;
 }
 
-#inline-div {
-    display: inline;
+#block-span {
+    display: block;
 }
 
 #flexbox {
