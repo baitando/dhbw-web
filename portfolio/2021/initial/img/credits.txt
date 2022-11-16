@@ -1,0 +1,8 @@
+banner.png: https://unsplash.com/photos/AX-ma0j6elM
+calendar.png: https://www.flaticon.com/free-icon/calendar_55281?term=calendar&page=1&position=8&page=1&position=8&related_id=55281&origin=style
+counter_dark.png: https://www.flaticon.com/free-icon/counter_6434543?related_id=6434543&origin=search
+counter_light.png: Edited version of https://www.flaticon.com/free-icon/counter_6434543?related_id=6434543&origin=search
+dhbw-logo.png: https://www.dhbw-vs.de/files/img/DHBW_VS_footer_logo.png
+energy-consumption_dark.png: https://www.flaticon.com/free-icon/energy-consumption_6367451?related_id=6367451&origin=tag
+energy-consumption_light.png: Edited version of https://www.flaticon.com/free-icon/energy-consumption_6367451?related_id=6367451&origin=tag
+delete.png: https://www.flaticon.com/free-icon/delete_565491?term=delete&page=1&position=21&page=1&position=21&related_id=565491&origin=search
