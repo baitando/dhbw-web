@@ -1,1 +1,1 @@
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/baitando/dhbw-web/tree/master/portfolio/2021/initial&terminal=stackblitz&title=Portfolio%20Web-Programmierung%202021)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/baitando/dhbw-web/tree/master/portfolio/2021/initial?terminal=stackblitz&title=Portfolio%20Web-Programmierung%202021)
