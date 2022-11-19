@@ -1,0 +1,1 @@
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/baitando/dhbw-web/tree/master/02a_testing-mocha-chai/result?file=index.html&terminal=stackblitz&title=Aufgabe%202%20Modul%202a%20%28Testing%29)
