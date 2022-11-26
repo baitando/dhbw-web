@@ -7,7 +7,7 @@ describe('Startpage', function () {
 
     beforeEach(async function () {
         driver = await new Builder().forBrowser('chrome').build();
-        await driver.get(`file://${process.cwd()}/../01e_javascript/result/index.html`);
+        await driver.get(`file://${process.cwd()}/../01e_javascript/uebung-2/result/index.html`);
     })
     afterEach(async function () {
         await driver.quit();

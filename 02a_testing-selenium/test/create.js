@@ -3,12 +3,12 @@ const assert = require("assert");
 const fs = require("fs");
 
 describe('Create Page', function () {
-    this.timeout(6000);
+    this.timeout(10000);
     let driver
 
     beforeEach(async function () {
         driver = await new Builder().forBrowser('chrome').build()
-        await driver.get(`file://${process.cwd()}/../01e_javascript/result/anlage.html`);
+        await driver.get(`file://${process.cwd()}/../01e_javascript/uebung-2/result/anlage.html`);
     })
 
     afterEach(async function () {
