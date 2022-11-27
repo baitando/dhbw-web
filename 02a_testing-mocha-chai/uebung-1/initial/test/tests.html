@@ -8,8 +8,9 @@
 
 <div id="mocha"></div>
 
-<script src="https://unpkg.com/chai/chai.js"></script>
-<script src="https://unpkg.com/mocha/mocha.js"></script>
+<!-- TODO #1 Binden Sie die Javascript-Dateien von Chai und Mocha ein. Die einzubindenden URLs sind:
+    Chai: https://unpkg.com/chai/chai.js
+    Mocha: https://unpkg.com/mocha/mocha.js -->
 
 <script class="mocha-init">
     mocha.setup('bdd');
@@ -17,7 +18,10 @@
 </script>
 
 <script src="../calculator.js"></script>
-<script src="./calculator_test.js"></script>
+<script src="../persistence.js"></script>
+
+<!-- TODO #2 Binden Sie die Javascript-Datei mit Ihren Tests ein. Der Pfad lautet:
+    ./calculator_test.js -->
 
 <script class="mocha-exec">
     mocha.run();

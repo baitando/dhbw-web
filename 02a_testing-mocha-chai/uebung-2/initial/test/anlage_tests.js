@@ -1,8 +1,8 @@
 describe('task management', function () {
 
     it('desired task found', async function () {
-        var expect = chai.expect;
-        var tasks = [
+        const expect = chai.expect;
+        const tasks = [
             {
                 id: "erster-task",
                 title: "Mein Titel",
@@ -11,7 +11,7 @@ describe('task management', function () {
                 responsible: "Weihnachtsmann"
             }
         ];
-        var foundTask = getTaskById(tasks, "erster-task");
+        const foundTask = getTaskById(tasks, "erster-task");
 
         expect(foundTask).to.eql({
             id: "erster-task",
