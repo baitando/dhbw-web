@@ -5,5 +5,5 @@ function saveCalculation(a, b, result, key) {
        result: result
     });
 
-    return localStorage.setItem("calculation", calculation);
+    return localStorage.setItem(key, calculation);
 }
