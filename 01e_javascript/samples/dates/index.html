@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>TODO</title>
+</head>
+<body onload="trigger()">
+<h1>&Uuml;bungs-Umgebung</h1>
+<p>Diese HTML-Seite dient dazu, fokussiert den Umgang mit Javascript als Programmiersprache &uuml;ben zu
+    k&ouml;nnen. Es sind keine &Auml;nderungen an der HTML-Datei notwendig. Sie k&ouml;nnen sich voll und ganz auf die
+    Entwicklung des Javascript-Codes in der Datei js/spielwiese.js konzentrieren.</p>
+<p>Die &Uuml;bungs-Umgebung ist so konstruiert, dass der Einstiegspunkt f&uuml;r den Javascript-Teil immer die Funktion
+    run() in der Datei js/spielwiese.js ist. Diese Funktion wird automatisch in folgenden F&auml;llen aufgerufen:
+</p>
+<ul>
+    <li>Die HTML-Seite wird neu geladen.</li>
+    <li>Der unten stehende Button wird geklickt.</li>
+</ul>
+<p>Bitte beachten Sie, dass &Auml;nderungen am Javascript-Code erst nach einem neu laden der HTML-Seite wirksam werden.
+    Sollten Sie lediglich die Funktion ohne &Auml;nderungen am Javascript-Code erneut ausf&uuml;hren wollen, so bietet
+    sich die Nutzung des Buttons an. Am Ende der Seite finden Sie zus&auml;tzlich eine Historie der Ausf&uuml;hrungen
+    seit dem letzten neu laden der HTML-Seite.</p>
+<p>Ausgaben aus dem Javascript-Code erfolgen auf der Entwickler-Konsole. &Ouml;ffnen Sie dazu bitte die
+    Entwicklerwerkzeuge Ihres Browsers und navigieren Sie dort zur Konsole.</p>
+
+<h2>Manuelle Ausf&uuml;hrung</h2>
+<button onclick="trigger()">Javascript-Code Ausf&uuml;hren</button>
+
+<h2>Datumsfeld</h2>
+<form>
+    <label for="date">Datum</label><input id="date" type="date" onchange="console.log(document.getElementById('date').value)"/>
+</form>
+
+<h2>Historie</h2>
+<ol id="history">
+</ol>
+<script>
+
+    function trigger() {
+        const startTime = performance.now();
+        run();
+        const endTime = performance.now();
+
+        const item = document.createElement("li");
+        item.textContent = `Zeitpunkt: ${new Date().toLocaleString()}, Dauer: ${endTime - startTime}ms`;
+        document.getElementById("history").append(item);
+
+        console.log("***");
+    }
+</script>
+<script src="js/spielwiese.js"></script>
+</body>
+</html>
