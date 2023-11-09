@@ -7,7 +7,7 @@
 
 .fixed-width {
     width: 1000px;
-
+    margin: auto;
 }
 
 body {
@@ -70,11 +70,6 @@ button {
     color: white;
     border-radius: 5px;
     border-color: black;
-}
-
-button:hover {
-    background-color: #e22329;
-    color: black;
 }
 
 .teaser-action button {
@@ -144,39 +139,4 @@ footer img {
 
 .copyright p {
     font-size: 0.8rem;
-}
-
-.headline {
-    display: flex;
-}
-
-.headline div {
-    flex-grow: 1;
-    text-align: right;
-}
-
-.todo-list li {
-    display: flex;
-}
-
-.todo-list img {
-    width: 30px;
-    height: 100%;
-}
-
-.description {
-    display: flex;
-    flex-direction: column;
-}
-
-li:nth-child(odd) {
-    background-color: grey;
-}
-
-.title {
-    width: 30%;
-}
-
-.note {
-    width: 50%;
 }
