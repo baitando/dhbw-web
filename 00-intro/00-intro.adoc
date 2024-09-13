@@ -1,0 +1,41 @@
+== Allgemeine Hinweise zu den Übungen
+
+=== Kontext
+
+Die Anwendung `TODO` ist ein webbasierter Aufgabenplaner, der im Zuge der Lehrveranstaltung 1 zum Thema "Web-Programmierung" entwickelt wurde und daher als bekannt vorausgesetzt wird.
+
+=== Werkzeuge
+
+Als Teil der Aufgabenstellung finden Sie verschiedene aufgabenspezifische URLs, auf die in der nachfolgenden Anleitung verwiesen wird.
+
+* `<initial-github>`: Verweist auf den initialen Quellcode in GitHub.
+* `<initial-download>`: Verweist auf den Download des initialen Quellcodes in Form eines Zip-Archivs
+* `<initial-ide`: Verweist auf die Online-Entwicklungsumgebung, in der bereits der initiale Quellcode geladen ist.
+
+Die Bearbeitung aller Aufgaben kann lokal auf Ihrem Rechner erfolgen, ist aber nicht empfohlen. Sie benötigen hierfür:
+
+* Einen Web-Browser wie z.B. Firefox (https://www.mozilla.org/de/firefox/new/).
+* Einen Text-Editor wie z.B. das kostenlose Visual Studio Code (https://code.visualstudio.com/).
+
+In diesem Fall richten Sie das Projekt folgendermaßen ein:
+
+* Laden Sie den Inhalt von `<initial-download` herunter. Ersetzen Sie vor Aufruf der URL den enthaltenen Platzhalter.
+* Entpacken Sie das Zip-Archiv.
+* Zum Bearbeiten der Dateien öffnen Sie diese im Text-Editor.
+* Zum Anzeigen des Dokuments öffnen Sie dieses im Browser.
+
+Empfohlen wird die Nutzung des kostenlosen Online-Tools https://stackblitz.com, welches die komplette Entwicklungsumgebung im Web-Browser bereitstellt und keine Registrierung erfordert.
+In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.
+
+* Öffnen Sie die URL `<initial-ide>` im Browser.
+* Nach einer Änderung müssen Sie das Dokument speichern und die Vorschau im rechten Teil des Fensters aktualisieren.
+* Sie können außerdem die rechts dargestellte URL verwenden und die Seite direkt im Browser aufrufen.
+* Die Dateien aus dem Editor können Sie sich über die Export-Funktion (das Wolken-Icon im Screenshot) als Zip-Archiv herunterladen.
+
+Empfohlen wird die Nutzung des kostenlosen Online-Tools https://stackblitz.com, welches die komplette Entwicklungsumgebung im Web-Browser bereitstellt und keine Registrierung erfordert.
+In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.
+
+* Öffnen Sie die URL `<initial-ide>` im Browser.
+* Nach einer Änderung müssen Sie das Dokument speichern und die Vorschau im rechten Teil des Fensters aktualisieren.
+* Sie können außerdem die rechts dargestellte URL verwenden und die Seite direkt im Browser aufrufen.
+* Die Dateien aus dem Editor können Sie sich über die Export-Funktion (das Wolken-Icon im Screenshot) als Zip-Archiv herunterladen.

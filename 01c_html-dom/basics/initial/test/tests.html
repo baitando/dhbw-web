@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Tests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.7.3/mocha.min.css"
+          integrity="sha512-V4chuHLeH432nMLP+ibmrBmDSkfEQAtq7T+FcxeoL9Ju+DN4GpIWpkhRabLppFPy4fbslCYxIc74fchYBV182w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+<div id="mocha"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.7.3/mocha.min.js"
+        integrity="sha512-8INqIoXCRyv8jMJAr80eEZR6/obnQ+6PrDm/MLFjso9Eg5W0S8pOTIue1Swimf/WqqFcA0EMpgfKDGVpSEcFuQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.5.0/chai.min.js"
+        integrity="sha512-FSrTnFnQ/6VXBVDqTTyt6EBXx/WzDefphSu2fZ95tlTeCNmfTBbKj/K5BYTqed6E3WbTvfCpAt4fi0WBdFxkLg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script class="mocha-init">
+    mocha.setup({
+        ui: 'bdd',
+        globals: ['getFrameLocation', 'handler']
+    });
+    mocha.checkLeaks();
+</script>
+
+<script src="./tests.js"></script>
+
+<script class="mocha-exec">
+    mocha.run();
+</script>
+
+</body>
+</html>
