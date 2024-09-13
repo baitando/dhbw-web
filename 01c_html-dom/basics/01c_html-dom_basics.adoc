@@ -1,0 +1,29 @@
+== Übungsaufgabe zu Modul 1c (HTML und DOM, Basics)
+
+In dieser Übungsaufgabe wird die aus der vorhergehenden Lehrveranstaltung bekannte Web-Anwendung auf eine HTTP-basierte JSON-RPC API umgestellt.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial
+
+|`<initial-ide`
+|https://stackblitz.com/fork/github/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20%7C%20Modul%202a%20%28JSON-RPC%29
+|===
+
+=== Aufgabenbeschreibung
+
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-distributed/tree/main/01-jsonrpc/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20%C3%9Cbungsaufgabe%20%7C%20Modul%202a%20%28JSON-RPC%29 im Browser direkt in der Online-Entwicklungsumgebung betrachten.

@@ -3,7 +3,7 @@ const assert = require("assert");
 
 describe('Startpage', function () {
     this.timeout(6000);
-    let driver
+    let driver;
 
     beforeEach(async function () {
         driver = await new Builder().forBrowser('chrome').build();
