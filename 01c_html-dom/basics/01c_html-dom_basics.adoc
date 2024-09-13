@@ -17,7 +17,7 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 |https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial
 
 |`<initial-ide`
-|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=test/tests.html
 |===
 
 === Aufgabenbeschreibung
@@ -66,4 +66,4 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 
 Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29 im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=test/tests.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
