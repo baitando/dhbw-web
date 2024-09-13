@@ -1,0 +1,13 @@
+{
+  "name": "01c_html-dom_basics_result",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "stackblitz": "http-server"
+  },
+  "author": "Andreas Rehmann",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
