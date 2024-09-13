@@ -1,6 +1,7 @@
-== Übungsaufgabe zu Modul 1c (HTML und DOM, Basics)
+== Übungsaufgabe zu Modul 1c (HTML und DOM: Grundlagen)
 
-In dieser Übungsaufgabe wird die aus der vorhergehenden Lehrveranstaltung bekannte Web-Anwendung auf eine HTTP-basierte JSON-RPC API umgestellt.
+In dieser Übungsaufgabe werden die Grundlagen für die Erstellung von HTML-Dokumenten geübt.
+Die Übung dient dazu, sich mit einigen der grundlegenden HTML-Tags vertraut zu machen.
 
 === Platzhalter
 
@@ -10,20 +11,59 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 |Platzhalter |Wert
 
 |`<initial-github>`
-|https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial
+|https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial
 
 |`<initial-download>`
-|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial
 
 |`<initial-ide`
-|https://stackblitz.com/fork/github/baitando/dhbw-distributed/tree/main/01-jsonrpc/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20%7C%20Modul%202a%20%28JSON-RPC%29
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29
 |===
 
 === Aufgabenbeschreibung
 
+. Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag `html` sowie den beiden Bereichen, die durch die Tags `head` und `body` ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.
+. Befüllen Sie nun den Bereich `head` so, dass der Titel als "Basics" angegeben ist und geben Sie als Autor bzw. Autorin Ihren eigenen Namen an. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 2: metadata" erfolgreich.
+. Erstellen Sie im Bereich `body` eine Überschrift erster Ordnung mit dem Text "Grundlagen der Web-Programmierung". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 3: content" erfolgreich.
+. Erstellen Sie im Bereich `body` unter der Überschrift erster Ordnung eine Überschrift zweiter Ordnung mit dem Text "Inhalte". Als Erklärungstext erstellen Sie darunter einen Absatz mit dem Text "Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.". Erstellen Sie dann eine nummerierte Liste mit den Elementen "HTML", "CSS" und "Javascript". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 4: content" erfolgreich.
+. Erstellen Sie im Bereich `body` unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Versionen". Darunter erstellen Sie eine Tabelle mit den Spaltenbezeichnungen "Version", "Datum" und "Autor" in der Kopfzeilenspalte. Fügen Sie der Tabelle eine Zeile hinzu, die als Werte "v1", "13.09.2024" und "Andreas Rehmann" enthält. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 5: content" erfolgreich.
+. Erstellen Sie im Bereich `body` unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Hochschule". Erstellen Sie außerdem Bild, das als Quelle auf https://www.dhbw-vs.de/files/img/logo_mobile.png verweist und als Alternativtext "DHBW Logo" angibt. Bei Klick auf das Bild soll sich die Website https://www.dhbw-vs.de in einem neuen Tab öffnen. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 6: content" erfolgreich.
+
+=== Anleitung
+
+. Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag `html` sowie den beiden Bereichen, die durch die Tags `head` und `body` ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.
+.. Geben Sie den `DOCTYPE` als `html` an.
+.. Fügen Sie dem Dokument das Element `html` mit Start- und End-Tag hinzu.
+.. Ergänzen Sie das Attribut `lang` mit dem Wert `de` am vorher erstellen Element `html`.
+.. Fügen Sie das Element `head` mit Start- und End-Tag innerhalb des Elements `html` ein.
+.. Fügen Sie das Element `body` mit Start- und End-Tag innerhalb des Elements `html` ein.
+
+. Befüllen Sie nun den Bereich `head` so, dass der Titel als "Basics" angegeben ist und geben Sie als Autor bzw. Autorin Ihren eigenen Namen an. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 2: metadata" erfolgreich.
+.. Erstellen Sie innerhalb des Elements `head` den Tag `title` und hinterlegen Sie den Wert `Basics`.
+.. Erstellen Sie innerhalb des Elements `head` den Tag `meta`. Erstellen Sie das Attribut `name` mit dem Wert `author` und ein weiteres Attribut `content`, das Sie als Wert mit Ihrem eigenen Namen belegen.
+
+. Erstellen Sie im Bereich `body` eine Überschrift erster Ordnung mit dem Text "Grundlagen der Web-Programmierung". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 3: content" erfolgreich.
+.. Erstellen Sie innerhalb des Elements `body` den Tag `h1`.
+.. Hinterlegen Sie für das neue Element den Wert `Grundlagen der Web-Programmierung`.
+
+. Erstellen Sie im Bereich `body` unter der Überschrift erster Ordnung eine Überschrift zweiter Ordnung mit dem Text "Inhalte". Als Erklärungstext erstellen Sie darunter einen Absatz mit dem Text "Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.". Erstellen Sie dann eine nummerierte Liste mit den Elementen "HTML", "CSS" und "Javascript". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 4: content" erfolgreich.
+.. Erstellen Sie unter den zuvor erstellten Elementen den Tag `h2` und hinterlegen Sie den Wert `Inhalte`.
+.. Erstellen Sie darunter den Tag `p` und hinterlegen Sie den Wert `Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.`. Ersetzen Sie im Text Umlaute durch die entsprechenden HTML-Entities.
+.. Erstellen Sie darunter den Tag `ol` und als darin geschachtelte Elemente je ein `li` für jeden der Werte `HTML`, `CSS` und `Javascript`.
+
+. Erstellen Sie im Bereich `body` unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Versionen". Darunter erstellen Sie eine Tabelle mit den Spaltenbezeichnungen "Version", "Datum" und "Autor" in der Kopfzeilenspalte. Fügen Sie der Tabelle eine Zeile hinzu, die als Werte "v1", "13.09.2024" und "Andreas Rehmann" enthält. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 5: content" erfolgreich.
+.. Erstellen Sie unter den zuvor erstellten Elementen den Tag `h2` und hinterlegen Sie den Wert `Versionen`.
+.. Erstellen Sie ein Element `table`.
+.. Im zuvor erstellen Element `table` erstellen Sie ein Element `tr` mit je einem Element `th` für jeden der Werte `Version`, `Datum` und `Autor`.
+.. Im zuvor erstellen Element `table` erstellen Sie ein weiteres Element `tr` mit je einem Element `td` für jeden der Werte `v1`, `13.09.2024` und `Andreas Rehmann`.
+
+. Erstellen Sie im Bereich `body` unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Hochschule". Erstellen Sie außerdem Bild, das als Quelle auf https://www.dhbw-vs.de/files/img/logo_mobile.png verweist und als Alternativtext "DHBW Logo" angibt. Bei Klick auf das Bild soll sich die Website https://www.dhbw-vs.de in einem neuen Tab öffnen. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 6: content" erfolgreich.
+.. Erstellen Sie unter den zuvor erstellten Elementen den Tag `h2` und hinterlegen Sie den Wert `Hochschule`.
+.. Erstellen Sie darunter einen Tag `a`. Weisen Sie dem Attribut `href` den Wert `https://www.dhbw-vs.de` und dem Attribut `target` den Wert `_blank` zu.
+.. Erstellen Sie innerhalb des zuvor erstellten Tags den Tag `img`. Weisen Sie dem Attribut `src` den Wert `https://www.dhbw-vs.de/files/img/logo_mobile.png` und dem Attribut `alt` den Wert `DHBW Logo` zu.
 
 === Lösungsbeispiel
 
 Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-distributed/tree/main/01-jsonrpc/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20%C3%9Cbungsaufgabe%20%7C%20Modul%202a%20%28JSON-RPC%29 im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29 im Browser direkt in der Online-Entwicklungsumgebung betrachten.
