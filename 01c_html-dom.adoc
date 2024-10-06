@@ -1,4 +1,4 @@
-= Übungen zur Web-Programmierung
+= Übungen zur Web-Programmierung (HTML)
 Andreas Rehmann | DHBW Villingen-Schwenningen
 v2024-1
 :sectnums:
@@ -14,3 +14,6 @@ include::00-intro/00-intro.adoc[]
 :sectnums:
 :imagesdir: 01c_html-dom/basics/01c_html-dom_basics
 include::01c_html-dom/basics/01c_html-dom_basics.adoc[]
+
+:imagesdir: 01c_html-dom/app/01c_html-dom_app
+include::01c_html-dom/app/01c_html-dom_app.adoc[]

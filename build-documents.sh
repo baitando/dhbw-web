@@ -8,7 +8,7 @@ if [ -z "$HTML_CMD" ]; then
   HTML_CMD="docker run --rm -it -v $PWD:/documents/ asciidoctor/docker-asciidoctor:1.76 asciidoctor"
 fi
 
-OUT_DIR="out"
+OUT_DIR="out/01c_html-dom"
 OUT_DIR_HTML="$OUT_DIR/html"
 OUT_DIR_PDF="$OUT_DIR/pdf"
 rm -rf $OUT_DIR
@@ -16,8 +16,8 @@ mkdir -p $OUT_DIR_HTML
 mkdir -p $OUT_DIR_PDF
 
 
-$HTML_CMD -D "$OUT_DIR_HTML" index.adoc
-$PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" index.adoc
+$HTML_CMD -D "$OUT_DIR_HTML" 01c_html-dom.adoc
+$PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" 01c_html-dom.adoc
 
 function copy() {
   mkdir -p $OUT_DIR_HTML/"$1"

@@ -3,6 +3,12 @@
 In dieser Übungsaufgabe werden die Grundlagen für die Erstellung von HTML-Dokumenten geübt.
 Die Übung dient dazu, sich mit einigen der grundlegenden HTML-Tags vertraut zu machen.
 
+Sie arbeiten für diese Übung in der Datei `index.html` und erarbeiten deren Inhalt anhand der Teilaufgaben.
+Für jeden der Arbeitsschritte gibt es einen Testfall, der Ihnen anzeigt, ob Ihre Umsetzung korrekt ist.
+Diese Tests können Sie durch Öffnen der Datei `test/test.html` im Browser durchführen.
+Wenn Sie wie empfohlen mit Stackblitz arbeiten und die Entwicklungsumgebung über den Link aus `<initial-ide>` öffnen,
+ist alles voreingestellt.
+
 === Platzhalter
 
 Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
@@ -16,11 +22,17 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 |`<initial-download>`
 |https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial
 
-|`<initial-ide`
+|`<initial-ide>`
 |https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=test/tests.html
 |===
 
 === Aufgabenbeschreibung
+
+Nachfolgend sind die Teilaufgaben beschrieben.
+Versuche Sie, diese eigenständig umzusetzen.
+Anhand der Tests sehen Sie, ob Ihre Umsetzung korrekt ist.
+Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten eine detaillierte Anleitung.
+Zudem ist ein Lösungsbeispiel verlinkt.
 
 . Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag `html` sowie den beiden Bereichen, die durch die Tags `head` und `body` ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.
 . Befüllen Sie nun den Bereich `head` so, dass der Titel als "Basics" angegeben ist und geben Sie als Autor bzw. Autorin Ihren eigenen Namen an. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 2: metadata" erfolgreich.
@@ -30,6 +42,8 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 . Erstellen Sie im Bereich `body` unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Hochschule". Erstellen Sie außerdem Bild, das als Quelle auf https://www.dhbw-vs.de/files/img/logo_mobile.png verweist und als Alternativtext "DHBW Logo" angibt. Bei Klick auf das Bild soll sich die Website https://www.dhbw-vs.de in einem neuen Tab öffnen. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 6: content" erfolgreich.
 
 === Anleitung
+
+Die nachfolgende Anleitung führt Sie Schritt für Schritt durch die Umsetzung der Aufgaben aus dem vorhergehenden Kapitel.
 
 . Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag `html` sowie den beiden Bereichen, die durch die Tags `head` und `body` ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.
 .. Geben Sie den `DOCTYPE` als `html` an.
@@ -64,6 +78,6 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 
 === Lösungsbeispiel
 
-Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-distributed/tree/main/01-jsonrpc/result.
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=test/tests.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=test/tests.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.

@@ -1,0 +1,58 @@
+== Übungsaufgabe zu Modul 1c (HTML und DOM: App)
+
+In dieser Übungsaufgabe werden mehrere HTML-Dokumente erstellt. An dieser Stelle geht es ausschließlich um den Aufbau der Dokumentenstruktur.
+
+Die visuelle Darstellung und dynamisches Verhalten spielen an dieser Stelle noch keine Rolle.
+Beides wird Gegenstand der nächsten Übungsaufgaben sein.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial
+
+|`<initial-ide>`
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&initialpath=test/tests.html
+|===
+
+=== Aufgabenbeschreibung
+
+Nachfolgend sind die Teilaufgaben beschrieben.
+Versuche Sie, diese eigenständig umzusetzen.
+Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten den Link zum Lösungsbeispiel.
+
+. Nutzen Sie die bestehende Datei index.html der Startseite als Vorlage für die Anlage der folgenden Dateien:
+    .. `liste.html` für die Aufgabenliste
+    .. `anlage.html` für die Aufgabenanlage
+. Entfernen Sie die nicht benötigten Inhalte in der Datei liste.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenliste ersichtlich sind:
+    .. Eine Überschrift erster Ordnung.
+    .. Button für die Anlage einer neuen Aufgabe. Verweisen Sie auf die Datei `anlage.html`.
+    .. Eine unsortierte Liste mit drei Einträgen für die Aufgaben. Gruppieren Sie die Inhalte für den Titel, die Beschreibung, das Fälligkeitsdatum und die Verantwortlichkeit in entsprechenden geschachtelten Block-Elementen.
+. Entfernen Sie die nicht benötigten Inhalte in der Datei anlage.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenanlage ersichtlich sind:
+    .. Eine Überschrift erster Ordnung.
+    .. Ein Formular für die Dateneingabe.
+    .. Innerhalb des Formulars eine Gruppe für den Titel bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.
+    .. Innerhalb des Formulars eine Gruppe für die Notizen bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.
+    .. Innerhalb des Formulars eine Gruppe für das Fälligkeitsdatum bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.
+    .. Innerhalb des Formulars eine Gruppe für die Verantwortlichkeit bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.
+    .. Innerhalb des Formulars einen Button für die Anlage der Aufgabe. Verweisen Sie auf die Datei `liste.html`.
+    .. Innerhalb des Formulars einen Button für den Abbruch der Aufgabenanlage. Verweisen Sie auch hier auf die Datei `liste.html`.
+
+Sobald Sie mit den oben aufgeführten Aufgaben fertig sind, können Sie die folgenden Schritte zusätzlich umsetzen:
+
+. Erstellen Sie die Datei `preise.html` für die Preise. Setzen Sie den Inhalt wie im Entwurf dargestellt um.
+. Erstellen Sie die Datei `impressum.html` für das Impressum. Setzen Sie den Inhalt wie im Entwurf dargestellt um.
+. Erstellen Sie die Datei `datenschutz.html` für den Bereich Datenschutz. Setzen Sie den Inhalt wie im Entwurf dargestellt um.
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
