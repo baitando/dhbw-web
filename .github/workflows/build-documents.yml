@@ -1,0 +1,45 @@
+name: Build Documents
+on:
+  push:
+    branches: [ main, feature/asciidoc ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: asciidoctor/docker-asciidoctor:1.76
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v3
+      - name: Create output directory
+        run: mkdir -p out
+      - name: Build documents
+        run: ./build-documents.sh asciidoctor-pdf asciidoctor
+      - name: Upload exercise document as PDF
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: exercises-pdf
+          path: out/pdf
+      - name: Upload exercise document as HTML
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: exercises-html
+          path: out/html
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v3
+      - name: Download GitHub Pages content
+        uses: actions/download-artifact@v3
+        with:
+          name: exercises-html
+          path: out/html
+      - name: Display structure of downloaded files
+        run: ls -R
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: out/html
