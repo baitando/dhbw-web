@@ -19,13 +19,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: exercises-pdf
-          path: out/pdf
+          path: out/**/pdf
       - name: Upload exercise document as HTML
         if: success()
         uses: actions/upload-artifact@v3
         with:
           name: exercises-html
-          path: out/html
+          path: out/**/html
   release:
     needs: build
     runs-on: ubuntu-latest
