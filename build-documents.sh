@@ -21,5 +21,7 @@ $PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" 01c_html-dom.adoc
 
 function copy() {
   mkdir -p $OUT_DIR_HTML/"$1"
-  cp ./"$1"/*.png $OUT_DIR_HTML/"$1"/
+  cp ./"$1"/*.jpg $OUT_DIR_HTML/"$1"/
 }
+
+copy 00-intro/wireframes
