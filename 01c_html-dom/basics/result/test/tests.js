@@ -18,14 +18,14 @@ describe("part 1: structure", function () {
 
     it('should contain root element html', function () {
         const element = htmlDocument.querySelector('html');
-        expect(element.getAttribute('lang')).to.eql('de');
+        expect(element.attr).not.to.be.null;
+
+        expect(textDocument).to.include('<html');
     });
 
     it('should contain lang attribute with correct value in html element', function () {
         const element = htmlDocument.querySelector('html');
-        expect(element.attr).not.to.be.null;
-
-        expect(textDocument).to.include('<html');
+        expect(element.getAttribute('lang')).to.eql('de');
     });
 
     it('should contain head element at correct position', function () {

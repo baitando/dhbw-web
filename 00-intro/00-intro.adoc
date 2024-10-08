@@ -2,7 +2,44 @@
 
 === Kontext
 
-Die Anwendung `TODO` ist ein webbasierter Aufgabenplaner, der im Zuge der Lehrveranstaltung 1 zum Thema "Web-Programmierung" entwickelt wurde und daher als bekannt vorausgesetzt wird.
+Die Anwendung "TODO" ist ein webbasierte Aufgabenplaner, der im Zuge der Vorlesung nach und nach entwickelt wird.
+
+Strukturell besteht die Anwendung aus verschiedenen Seiten bzw. Ansichten:
+
+- Die *Startseite* zeigt Marketing-Informationen zum Produkt. Ziel ist, Besucher der Seite von der Anwendung zu überzeugen und sie so zu Benutzern zu machen.
+- Im Bereich *Preise* werden die verschiedenen Preismodelle mit den jeweils enthaltenen Funktionen dargestellt. Ziel ist, Besuchern und Benutzern die Wahl des für sie passenden Preismodells zu vereinfachen.
+- Die App führt zur *Aufgabenliste* und bietet außerdem Möglichkeiten zur *Aufgabenanlage* und *Aufgabenbearbeitung*. Ziel ist, Benutzern eine intuitive Möglichkeit zur Anlage und Verwaltung von Aufgabeneinträgen zu bieten.
+- Im *Impressum* sind rechtlich verpflichtende Angaben zum Anbieter der Anwendung hinterlegt.
+- Unter *Datenschutz* sind rechtlich verpflichtende Angaben zum Umgang mit Benutzerdaten verfügbar.
+
+Entwürfe aller Seiten sind nachfolgend aufgeführt.
+
+<<<
+
+==== Startseite
+image::wireframes/startseite.jpg[pdfwidth=65%,align="center"]
+
+==== Preise
+image::wireframes/preise.jpg[pdfwidth=65%,align="center"]
+
+==== Aufgabenliste
+image::wireframes/liste.jpg[pdfwidth=65%,align="center"]
+
+==== Aufgabenanlage
+image::wireframes/anlegen.jpg[pdfwidth=65%,align="center"]
+
+<<<
+
+==== Aufgabenbearbeitung
+image::wireframes/bearbeiten.jpg[pdfwidth=65%,align="center"]
+
+==== Impressum
+image::wireframes/impressum.jpg[pdfwidth=65%,align="center"]
+
+<<<
+
+==== Datenschutz
+image::wireframes/datenschutz.jpg[pdfwidth=65%,align="center"]
 
 === Werkzeuge
 
