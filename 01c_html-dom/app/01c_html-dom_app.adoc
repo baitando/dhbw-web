@@ -34,7 +34,7 @@ Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten den L
 . Entfernen Sie die nicht benötigten Inhalte in der Datei liste.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenliste ersichtlich sind:
     .. Eine Überschrift erster Ordnung.
     .. Button für die Anlage einer neuen Aufgabe. Verweisen Sie auf die Datei `anlage.html`.
-    .. Eine unsortierte Liste mit drei Einträgen für die Aufgaben. Gruppieren Sie die Inhalte für den Titel, die Beschreibung, das Fälligkeitsdatum und die Verantwortlichkeit in entsprechenden geschachtelten Block-Elementen.
+    .. Eine unsortierte Liste mit drei Einträgen für die Aufgaben. Gruppieren Sie die Inhalte für den Titel, die Beschreibung, das Fälligkeitsdatum und die Verantwortlichkeit in entsprechenden geschachtelten Block-Elementen (`<div>...</div>`).
 . Entfernen Sie die nicht benötigten Inhalte in der Datei anlage.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenanlage ersichtlich sind:
     .. Eine Überschrift erster Ordnung.
     .. Ein Formular für die Dateneingabe.
