@@ -1,0 +1,36 @@
+== Übungsaufgabe zu Modul 1d (CSS: Grundlagen)
+
+In dieser Übungsaufgabe werden die Grundlagen für die Gestaltung von HTML-Dokumenten mittels CSS geübt.
+Die Übung dient dazu, sich mit einigen der grundlegenden Selektoren und Anweisungen in CSS vertraut zu machen.
+
+Sie arbeiten für diese Übung in der Datei `style.css` und erarbeiten deren Inhalt anhand der Teilaufgaben.
+Für jeden der Arbeitsschritte gibt es einen Indikatoren, die Ihnen anzeigen, ob Ihre Umsetzung korrekt ist.
+Wenn Sie wie empfohlen mit Stackblitz arbeiten und die Entwicklungsumgebung über den Link aus `<initial-ide>` öffnen, ist alles voreingestellt.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial
+
+|`<initial-ide>`
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/initial?file=style.css&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&initialpath=index.html
+|===
+
+=== Aufgabenbeschreibung
+
+. Bearbeiten Sie die Aufgaben auf der HTML-Seite `index.html` in der Reihenfolge ihrer Nummerierung. Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browsers.
+. Rekapitulieren Sie die Inhalte der bisher besprochenen Folien zum Thema CSS und testen Sie einige der Anweisungen.
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.

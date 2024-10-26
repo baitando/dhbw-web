@@ -1,0 +1,19 @@
+= Übungen zur Web-Programmierung (CSS)
+Andreas Rehmann | DHBW Villingen-Schwenningen
+v2024-1
+:sectnums:
+:!chapter-signifier:
+:doctype: book
+:toc: left
+:toc-title: Inhaltsverzeichnis
+
+:!sectnums:
+:imagesdir: 00-intro
+include::00-intro/00-intro.adoc[]
+
+:sectnums:
+:imagesdir: 01d_css/basics/02d_css_basics
+include::01d_css/basics/01d_css_basics.adoc[]
+
+:imagesdir: 01d_css/app
+include::01d_css/app/01d_css_app.adoc[]
