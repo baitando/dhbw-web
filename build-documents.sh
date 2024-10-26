@@ -19,14 +19,14 @@ $HTML_CMD -D "$OUT_DIR_HTML" 01c_html-dom.adoc
 $PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" 01c_html-dom.adoc
 
 
-OUT_DIR="out/02d_css"
+OUT_DIR="out/01d_css"
 OUT_DIR_HTML="$OUT_DIR/html"
 OUT_DIR_PDF="$OUT_DIR/pdf"
 rm -rf $OUT_DIR
 mkdir -p $OUT_DIR_HTML
 mkdir -p $OUT_DIR_PDF
 
-$HTML_CMD -D "$OUT_DIR_HTML" 02d_css.adoc
+$HTML_CMD -D "$OUT_DIR_HTML" 01d_css.adoc
 $PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" 01d_css.adoc
 
 function copy() {
