@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
 <meta name="author" content="Andreas Rehmann | DHBW Villingen-Schwenningen">
-<title>Übungen zur Web-Programmierung (HTML)</title>
+<title>Übungen zur Web-Programmierung (CSS)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -437,10 +437,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Übungen zur Web-Programmierung (HTML)</h1>
+<h1>Übungen zur Web-Programmierung (CSS)</h1>
 <div class="details">
 <span id="author" class="author">Andreas Rehmann | DHBW Villingen-Schwenningen</span><br>
-<span id="revnumber">version 2024-3</span>
+<span id="revnumber">version 2024-1</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Inhaltsverzeichnis</div>
@@ -451,19 +451,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_werkzeuge">Werkzeuge</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1c_html_und_dom_grundlagen">1. Übungsaufgabe zu Modul 1c (HTML und DOM: Grundlagen)</a>
+<li><a href="#_übungsaufgabe_zu_modul_1d_css_grundlagen">1. Übungsaufgabe zu Modul 1d (CSS: Grundlagen)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter">1.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung">1.2. Aufgabenbeschreibung</a></li>
-<li><a href="#_anleitung">1.3. Anleitung</a></li>
-<li><a href="#_lösungsbeispiel">1.4. Lösungsbeispiel</a></li>
+<li><a href="#_lösungsbeispiel">1.3. Lösungsbeispiel</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1c_html_und_dom_app">2. Übungsaufgabe zu Modul 1c (HTML und DOM: App)</a>
+<li><a href="#_übungsaufgabe_zu_modul_1d_css_app">2. Übungsaufgabe zu Modul 1d (CSS: App)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter_2">2.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung_2">2.2. Aufgabenbeschreibung</a></li>
-<li><a href="#_lösungsbeispiel_2">2.3. Lösungsbeispiel</a></li>
+<li><a href="#_tipps">2.3. Tipps</a></li>
+<li><a href="#_lösungsbeispiel_2">2.4. Lösungsbeispiel</a></li>
 </ul>
 </li>
 </ul>
@@ -657,18 +657,16 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1c_html_und_dom_grundlagen">1. Übungsaufgabe zu Modul 1c (HTML und DOM: Grundlagen)</h2>
+<h2 id="_übungsaufgabe_zu_modul_1d_css_grundlagen">1. Übungsaufgabe zu Modul 1d (CSS: Grundlagen)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In dieser Übungsaufgabe werden die Grundlagen für die Erstellung von HTML-Dokumenten geübt.
-Die Übung dient dazu, sich mit einigen der grundlegenden HTML-Tags vertraut zu machen.</p>
+<p>In dieser Übungsaufgabe werden die Grundlagen für die Gestaltung von HTML-Dokumenten mittels CSS geübt.
+Die Übung dient dazu, sich mit einigen der grundlegenden Selektoren und Anweisungen in CSS vertraut zu machen.</p>
 </div>
 <div class="paragraph">
-<p>Sie arbeiten für diese Übung in der Datei <code>index.html</code> und erarbeiten deren Inhalt anhand der Teilaufgaben.
-Für jeden der Arbeitsschritte gibt es einen Testfall, der Ihnen anzeigt, ob Ihre Umsetzung korrekt ist.
-Diese Tests können Sie durch Öffnen der Datei <code>test/test.html</code> im Browser durchführen.
-Wenn Sie wie empfohlen mit Stackblitz arbeiten und die Entwicklungsumgebung über den Link aus <code>&lt;initial-ide&gt;</code> öffnen,
-ist alles voreingestellt.</p>
+<p>Sie arbeiten für diese Übung in der Datei <code>style.css</code> und erarbeiten deren Inhalt anhand der Teilaufgaben.
+Für jeden der Arbeitsschritte gibt es einen Indikatoren, die Ihnen anzeigen, ob Ihre Umsetzung korrekt ist.
+Wenn Sie wie empfohlen mit Stackblitz arbeiten und die Entwicklungsumgebung über den Link aus <code>&lt;initial-ide&gt;</code> öffnen, ist alles voreingestellt.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter">1.1. Platzhalter</h3>
@@ -689,180 +687,62 @@ ist alles voreingestellt.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&amp;initialpath=test/tests.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/initial?file=style.css&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/initial?file=style.css&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html</a></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
 <h3 id="_aufgabenbeschreibung">1.2. Aufgabenbeschreibung</h3>
-<div class="paragraph">
-<p>Nachfolgend sind die Teilaufgaben beschrieben.
-Versuche Sie, diese eigenständig umzusetzen.
-Anhand der Tests sehen Sie, ob Ihre Umsetzung korrekt ist.
-Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten eine detaillierte Anleitung.
-Zudem ist ein Lösungsbeispiel verlinkt.</p>
-</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag <code>html</code> sowie den beiden Bereichen, die durch die Tags <code>head</code> und <code>body</code> ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.</p>
+<p>Bearbeiten Sie die Aufgaben auf der HTML-Seite <code>index.html</code> in der Reihenfolge ihrer Nummerierung. Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browsers.</p>
 </li>
 <li>
-<p>Befüllen Sie nun den Bereich <code>head</code> so, dass der Titel als "Basics" angegeben ist und geben Sie als Autor bzw. Autorin Ihren eigenen Namen an. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 2: metadata" erfolgreich.</p>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> eine Überschrift erster Ordnung mit dem Text "Grundlagen der Web-Programmierung". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 3: content" erfolgreich.</p>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unter der Überschrift erster Ordnung eine Überschrift zweiter Ordnung mit dem Text "Inhalte". Als Erklärungstext erstellen Sie darunter einen Absatz mit dem Text "Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.". Erstellen Sie dann eine nummerierte Liste mit den Elementen "HTML", "CSS" und "Javascript". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 4: content" erfolgreich.</p>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Versionen". Darunter erstellen Sie eine Tabelle mit den Spaltenbezeichnungen "Version", "Datum" und "Autor" in der Kopfzeilenspalte. Fügen Sie der Tabelle eine Zeile hinzu, die als Werte "v1", "13.09.2024" und "Andreas Rehmann" enthält. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 5: content" erfolgreich.</p>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Hochschule". Erstellen Sie außerdem Bild, das als Quelle auf <a href="https://www.dhbw-vs.de/files/img/logo_mobile.png" class="bare">https://www.dhbw-vs.de/files/img/logo_mobile.png</a> verweist und als Alternativtext "DHBW Logo" angibt. Bei Klick auf das Bild soll sich die Website <a href="https://www.dhbw-vs.de" class="bare">https://www.dhbw-vs.de</a> in einem neuen Tab öffnen. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 6: content" erfolgreich.</p>
+<p>Rekapitulieren Sie die Inhalte der bisher besprochenen Folien zum Thema CSS und testen Sie einige der Anweisungen.</p>
 </li>
 </ol>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_anleitung">1.3. Anleitung</h3>
+<h3 id="_lösungsbeispiel">1.3. Lösungsbeispiel</h3>
 <div class="paragraph">
-<p>Die nachfolgende Anleitung führt Sie Schritt für Schritt durch die Umsetzung der Aufgaben aus dem vorhergehenden Kapitel.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Erstellen Sie das Grundgerüst eines validen HTML-Dokuments (HTML 5), bestehend aus dem Root-Tag <code>html</code> sowie den beiden Bereichen, die durch die Tags <code>head</code> und <code>body</code> ausgezeichnet werden. Denken Sie auch an ggf. notwendige Zusatzangaben und Attribute. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 1: structure" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Geben Sie den <code>DOCTYPE</code> als <code>html</code> an.</p>
-</li>
-<li>
-<p>Fügen Sie dem Dokument das Element <code>html</code> mit Start- und End-Tag hinzu.</p>
-</li>
-<li>
-<p>Ergänzen Sie das Attribut <code>lang</code> mit dem Wert <code>de</code> am vorher erstellen Element <code>html</code>.</p>
-</li>
-<li>
-<p>Fügen Sie das Element <code>head</code> mit Start- und End-Tag innerhalb des Elements <code>html</code> ein.</p>
-</li>
-<li>
-<p>Fügen Sie das Element <code>body</code> mit Start- und End-Tag innerhalb des Elements <code>html</code> ein.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Befüllen Sie nun den Bereich <code>head</code> so, dass der Titel als "Basics" angegeben ist und geben Sie als Autor bzw. Autorin Ihren eigenen Namen an. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 2: metadata" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Erstellen Sie innerhalb des Elements <code>head</code> den Tag <code>title</code> und hinterlegen Sie den Wert <code>Basics</code>.</p>
-</li>
-<li>
-<p>Erstellen Sie innerhalb des Elements <code>head</code> den Tag <code>meta</code>. Erstellen Sie das Attribut <code>name</code> mit dem Wert <code>author</code> und ein weiteres Attribut <code>content</code>, das Sie als Wert mit Ihrem eigenen Namen belegen.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> eine Überschrift erster Ordnung mit dem Text "Grundlagen der Web-Programmierung". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 3: content" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Erstellen Sie innerhalb des Elements <code>body</code> den Tag <code>h1</code>.</p>
-</li>
-<li>
-<p>Hinterlegen Sie für das neue Element den Wert <code>Grundlagen der Web-Programmierung</code>.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unter der Überschrift erster Ordnung eine Überschrift zweiter Ordnung mit dem Text "Inhalte". Als Erklärungstext erstellen Sie darunter einen Absatz mit dem Text "Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.". Erstellen Sie dann eine nummerierte Liste mit den Elementen "HTML", "CSS" und "Javascript". Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 4: content" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Erstellen Sie unter den zuvor erstellten Elementen den Tag <code>h2</code> und hinterlegen Sie den Wert <code>Inhalte</code>.</p>
-</li>
-<li>
-<p>Erstellen Sie darunter den Tag <code>p</code> und hinterlegen Sie den Wert <code>Im Bereich der Grundlagen werden verschiedene Themengebiete beleuchtet, die für das Verständnis der Web-Programmierung unbedingt erforderlich sind.</code>. Ersetzen Sie im Text Umlaute durch die entsprechenden HTML-Entities.</p>
-</li>
-<li>
-<p>Erstellen Sie darunter den Tag <code>ol</code> und als darin geschachtelte Elemente je ein <code>li</code> für jeden der Werte <code>HTML</code>, <code>CSS</code> und <code>Javascript</code>.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Versionen". Darunter erstellen Sie eine Tabelle mit den Spaltenbezeichnungen "Version", "Datum" und "Autor" in der Kopfzeilenspalte. Fügen Sie der Tabelle eine Zeile hinzu, die als Werte "v1", "13.09.2024" und "Andreas Rehmann" enthält. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 5: content" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Erstellen Sie unter den zuvor erstellten Elementen den Tag <code>h2</code> und hinterlegen Sie den Wert <code>Versionen</code>.</p>
-</li>
-<li>
-<p>Erstellen Sie ein Element <code>table</code>.</p>
-</li>
-<li>
-<p>Im zuvor erstellen Element <code>table</code> erstellen Sie ein Element <code>tr</code> mit je einem Element <code>th</code> für jeden der Werte <code>Version</code>, <code>Datum</code> und <code>Autor</code>.</p>
-</li>
-<li>
-<p>Im zuvor erstellen Element <code>table</code> erstellen Sie ein weiteres Element <code>tr</code> mit je einem Element <code>td</code> für jeden der Werte <code>v1</code>, <code>13.09.2024</code> und <code>Andreas Rehmann</code>.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Erstellen Sie im Bereich <code>body</code> unterhalb der zuvor erstellten Elemente eine Überschrift zweiter Ordnung mit dem Text "Hochschule". Erstellen Sie außerdem Bild, das als Quelle auf <a href="https://www.dhbw-vs.de/files/img/logo_mobile.png" class="bare">https://www.dhbw-vs.de/files/img/logo_mobile.png</a> verweist und als Alternativtext "DHBW Logo" angibt. Bei Klick auf das Bild soll sich die Website <a href="https://www.dhbw-vs.de" class="bare">https://www.dhbw-vs.de</a> in einem neuen Tab öffnen. Wenn alles korrekt angegeben ist, sind alle Tests in der Gruppe "part 6: content" erfolgreich.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Erstellen Sie unter den zuvor erstellten Elementen den Tag <code>h2</code> und hinterlegen Sie den Wert <code>Hochschule</code>.</p>
-</li>
-<li>
-<p>Erstellen Sie darunter einen Tag <code>a</code>. Weisen Sie dem Attribut <code>href</code> den Wert <code><a href="https://www.dhbw-vs.de" class="bare">https://www.dhbw-vs.de</a></code> und dem Attribut <code>target</code> den Wert <code>_blank</code> zu.</p>
-</li>
-<li>
-<p>Erstellen Sie innerhalb des zuvor erstellten Tags den Tag <code>img</code>. Weisen Sie dem Attribut <code>src</code> den Wert <code><a href="https://www.dhbw-vs.de/files/img/logo_mobile.png" class="bare">https://www.dhbw-vs.de/files/img/logo_mobile.png</a></code> und dem Attribut <code>alt</code> den Wert <code>DHBW Logo</code> zu.</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_lösungsbeispiel">1.4. Lösungsbeispiel</h3>
-<div class="paragraph">
-<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/basics/result</a>.</p>
+<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/basics/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&amp;initialpath=test/tests.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1c_html_und_dom_app">2. Übungsaufgabe zu Modul 1c (HTML und DOM: App)</h2>
+<h2 id="_übungsaufgabe_zu_modul_1d_css_app">2. Übungsaufgabe zu Modul 1d (CSS: App)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In dieser Übungsaufgabe werden mehrere HTML-Dokumente erstellt. An dieser Stelle geht es ausschließlich um den Aufbau der Dokumentenstruktur.</p>
+<p>In dieser Übungsaufgabe werden die bestehenden HTML-Dokumente verwendet.
+Durch Erweiterungen in der CSS-Datei wird die Darstellung so angepasst, dass sie den Wireframes weitestgehend entsprecht.
+An dieser Stelle geht es ausschließlich um das Layout und die visuelle Gestaltung.</p>
 </div>
 <div class="paragraph">
-<p>Die visuelle Darstellung und dynamisches Verhalten spielen an dieser Stelle noch keine Rolle.
-Beides wird Gegenstand der nächsten Übungsaufgaben sein.</p>
+<p>Dynamisches Verhalten spielt an dieser Stelle noch keine Rolle.
+Das wird Gegenstand der nächsten Übungsaufgaben sein.</p>
+</div>
+<div class="paragraph">
+<p>Für diese Aufgabe werden alle CSS-Anweisungen in der Datei styles.css hinterlegt.
+Es kann notwendig sein, dass Sie die HTML-Struktur leicht modifizieren müssen, indem Sie z.B. weitere div-Tags einfügen.
+Die Startseite <code>index.html</code> ist bereits so überarbeitet, dass sie Ähnlichkeit mit den Wireframes aufweist.</p>
+</div>
+<div class="paragraph">
+<p>Wenn Sie wie empfohlen mit Stackblitz arbeiten und die Entwicklungsumgebung über den Link aus <code>&lt;initial-ide&gt;</code> öffnen, ist alles voreingestellt.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter_2">2.1. Platzhalter</h3>
@@ -883,84 +763,80 @@ Beides wird Gegenstand der nächsten Übungsaufgaben sein.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01d_css/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01d_css/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&amp;initialpath=index.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/app/initial?file=style.css&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/app/initial?file=style.css&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20App%29&amp;initialpath=index.html</a></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
 <h3 id="_aufgabenbeschreibung_2">2.2. Aufgabenbeschreibung</h3>
-<div class="paragraph">
-<p>Nachfolgend sind die Teilaufgaben beschrieben.
-Versuche Sie, diese eigenständig umzusetzen.
-Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten den Link zum Lösungsbeispiel.</p>
-</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Nutzen Sie die bestehende Datei index.html der Startseite als Vorlage für die Anlage der folgenden Dateien:</p>
+<p>Erstellen Sie CSS-Anweisungen, die dafür sorgen, dass Buttons (z.B. „Direkt loslegen“ auf der Startseite index.html) die Hintergrundfarbe #e22329 annehmen und die Beschriftung in schwarzer Farbe zeigen, wenn sich der Mauszeiger auf dem Button befindet (links ist der normale Button dargestellt, rechts der Button, auf dem sich der Mauszeiger befindet).</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="01d_css/app/wireframes/buttons.jpg" alt="buttons">
+</div>
+</div>
+</li>
+<li>
+<p>Wechseln Sie auf die Seite mit der Aufgabenliste (liste.html).</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p><code>liste.html</code> für die Aufgabenliste</p>
+<p>Ordnen Sie die Überschrift erster Ordnung und den Button „Neue Aufgabe anlegen“ nebeneinander an.</p>
 </li>
 <li>
-<p><code>anlage.html</code> für die Aufgabenanlage</p>
+<p>Formatieren Sie die Überschrift erster Ordnung. Stellen Sie sicher, dass sich der Button genauso verhält wie auf der Startseite.</p>
+</li>
+<li>
+<p>Definieren Sie, dass die Icons innerhalb der Aufgabeneinträge mit einer Breite von 30px angezeigt werden und die Höhe des Icons linear mitskaliert wird.</p>
+</li>
+<li>
+<p>Erzeugen Sie ein passendes Layout für die Aufgaben, die in der unsortierten Liste enthalten sind. Stellen Sie sicher, dass die Elemente einer Aufgabe entsprechend den Wireframes angeordnet sind.</p>
+</li>
+<li>
+<p>Stellen Sie sicher, dass die Bestandteile einer Aufgabe in jeder Zeile gleich breit sind, d.h. dass z.B. das Fälligkeitsdatum in jeder Zeile bündig zur vorherigen beginnt.</p>
+</li>
+<li>
+<p>Formatieren Sie die Bestandteile einer Aufgabe wie in den Wireframes gezeigt teilweise kursiv und teilweise fett. Beachten Sie auch die Abstände innerhalb eines Listeneintrages, die ungefähr eingehalten werden sollten.</p>
+</li>
+<li>
+<p>Färben Sie jede zweite Zeile mit der Hintergrundfarbe lightgray ein. Beginnen Sie mit dem Einfärben in der ersten Zeile wie in den Wireframes dargestellt.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
-<p>Entfernen Sie die nicht benötigten Inhalte in der Datei liste.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenliste ersichtlich sind:</p>
+<p>Wechseln Sie auf die Seite für die Aufgabenanlage (anlage.html).</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Eine Überschrift erster Ordnung.</p>
+<p>Stellen Sie sicher, dass sich die Überschrift erster Ordnung an der gleichen Stelle befindet, an der Sie sich auf der Seite mit der Aufgabenliste befindet (gleicher Abstand zum Logo oben).</p>
 </li>
 <li>
-<p>Button für die Anlage einer neuen Aufgabe. Verweisen Sie auf die Datei <code>anlage.html</code>.</p>
+<p>Gruppieren Sie jeweils das Label, den Erklärungstext und das Eingabefeld in einem eigenen div. Gruppieren Sie auch die beiden Buttons in einem div.</p>
 </li>
 <li>
-<p>Eine unsortierte Liste mit drei Einträgen für die Aufgaben. Gruppieren Sie die Inhalte für den Titel, die Beschreibung, das Fälligkeitsdatum und die Verantwortlichkeit in entsprechenden geschachtelten Block-Elementen (<code>&lt;div&gt;&#8230;&#8203;&lt;/div&gt;</code>).</p>
-</li>
-</ol>
-</div>
+<p>Stellen Sie sicher, dass sich der Button „Anlegen“ so verhält wie z.B. der Button auf der Startseite.</p>
 </li>
 <li>
-<p>Entfernen Sie die nicht benötigten Inhalte in der Datei anlage.html und erstellen Sie die Inhalte, die im Entwurf der Aufgabenanlage ersichtlich sind:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Eine Überschrift erster Ordnung.</p>
+<p>Stellen Sie sicher, dass der Button „Abbrechen“ im Normalzustand einen weißen Hintergrund mit schwarzer Schrift verwendet. Die Darstellung im Zustand des Mauszeigers über dem Button soll genau wie bei den bisherigen Buttons erfolgen.</p>
 </li>
 <li>
-<p>Ein Formular für die Dateneingabe.</p>
+<p>Richten Sie die beiden Buttons horizontal mittig aus.</p>
 </li>
 <li>
-<p>Innerhalb des Formulars eine Gruppe für den Titel bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.</p>
-</li>
-<li>
-<p>Innerhalb des Formulars eine Gruppe für die Notizen bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.</p>
-</li>
-<li>
-<p>Innerhalb des Formulars eine Gruppe für das Fälligkeitsdatum bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.</p>
-</li>
-<li>
-<p>Innerhalb des Formulars eine Gruppe für die Verantwortlichkeit bestehend aus dem Feldnamen, einer kurzen Beschreibung des Feldes sowie einem Eingabefeld.</p>
-</li>
-<li>
-<p>Innerhalb des Formulars einen Button für die Anlage der Aufgabe. Verweisen Sie auf die Datei <code>liste.html</code>.</p>
-</li>
-<li>
-<p>Innerhalb des Formulars einen Button für den Abbruch der Aufgabenanlage. Verweisen Sie auch hier auf die Datei <code>liste.html</code>.</p>
+<p>Formatieren Sie die Bestandteile des Formulars wie in den Wireframes gezeigt teilweise kursiv und teilweise fett. Beachten Sie auch die Abstände zwischen den Formularelementen und den Gruppen im Formular.</p>
 </li>
 </ol>
 </div>
@@ -973,24 +849,49 @@ Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten den L
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Erstellen Sie die Datei <code>preise.html</code> für die Preise. Setzen Sie den Inhalt wie im Entwurf dargestellt um.</p>
+<p>Formatieren Sie die Seite mit den Preisen (preise.html) entsprechend den Wireframes.</p>
 </li>
 <li>
-<p>Erstellen Sie die Datei <code>impressum.html</code> für das Impressum. Setzen Sie den Inhalt wie im Entwurf dargestellt um.</p>
+<p>Formatieren Sie das Impressum (impressum.html) entsprechend den Wireframes.</p>
 </li>
 <li>
-<p>Erstellen Sie die Datei <code>datenschutz.html</code> für den Bereich Datenschutz. Setzen Sie den Inhalt wie im Entwurf dargestellt um.</p>
+<p>Formatieren Sie die Datenschutz-Seite (datenschutz.html) entsprechend den Wireframes.</p>
 </li>
 </ol>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_lösungsbeispiel_2">2.3. Lösungsbeispiel</h3>
+<h3 id="_tipps">2.3. Tipps</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Zu 1.:</strong> Nutzen Sie die Pseudoklasse hover um das Aussehen bei Berührung mit dem Mauszeiger zu modifizieren.</p>
+</li>
+<li>
+<p><strong>Zu 2. b):</strong> Gruppieren Sie die beiden Elemente in einem div-Element. Nutzen Sie ein Flex-Layout für die Positionierung innerhalb des div-Elements. Die vertikal zentrierte Ausrichtung erreichen Sie durch Verwendung des Wertes auto für margin-top und margin-bottom für die zu zentrierenden Elemente. Achten Sie auch darauf, den Bereich des Buttons den verbleibenden Platz einnehmen zu lassen und richten Sie den Button rechts aus.</p>
+</li>
+<li>
+<p><strong>Zu 2. c):</strong> Wählen Sie einen passenden Selektor und definieren Sie die Breite auf 30px und die Höhe auf 100% für die lineare Skalierung der Höhe.</p>
+</li>
+<li>
+<p><strong>Zu 2. e):</strong> Verwenden Sie z.B. in Prozent angegebene Breiten für die einzelnen Bestandteile einer Aufgabe.</p>
+</li>
+<li>
+<p><strong>Zu 2. f):</strong> Gruppieren Sie die Teile, die nebeneinander erscheinen sollen, in div-Elementen. Wählen Sie ein Flex-Layout für die Anordnung nebeneinander. Die vertikal zentrierte Ausrichtung erreichen Sie auch hier durch die Verwendung des Wertes auto für margin-top und margin-bottom.</p>
+</li>
+<li>
+<p><strong>Zu 2. g):</strong> Für die Einfärbung jeder zweiten Zeile können Sie die Pseudoklasse nth-child(odd) verwenden.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lösungsbeispiel_2">2.4. Lösungsbeispiel</h3>
 <div class="paragraph">
-<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01c_html-dom/app/result</a>.</p>
+<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01c_html-dom/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
@@ -998,7 +899,7 @@ Für den Fall, dass Sie selbst nicht weiterwissen, finden Sie weiter unten den L
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2024-3<br>
+Version 2024-1<br>
 Last updated 2024-10-26 19:51:33 UTC
 </div>
 </div>
