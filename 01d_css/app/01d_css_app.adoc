@@ -27,7 +27,7 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 |https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01d_css/app/initial
 
 |`<initial-ide>`
-|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/app/initial?file=style.css&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20App%29&initialpath=index.html
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/app/initial?file=css/style.css&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20App%29&initialpath=index.html
 |===
 
 === Aufgabenbeschreibung
@@ -70,4 +70,4 @@ Sobald Sie mit den oben aufgeführten Aufgaben fertig sind, können Sie die folg
 
 Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01d_css/basics/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/basics/result?file=style.css&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20Grundlagen%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01d_css/app/result?file=css/style.css&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201d%20%28CSS%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
