@@ -49,4 +49,3 @@ mkdir -p $OUT_DIR_PDF
 $HTML_CMD -D "$OUT_DIR_HTML" 01e_javascript.adoc
 $PDF_CMD -a pdf-theme=theme.yml -D "$OUT_DIR_PDF" 01e_javascript.adoc
 copy 00-intro/wireframes $OUT_DIR_HTML
-#copy 01e_javascript/app/wireframes $OUT_DIR_HTML

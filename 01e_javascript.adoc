@@ -14,3 +14,6 @@ include::00-intro/00-intro.adoc[]
 :sectnums:
 :imagesdir: 01e_javascript/basics/01e_javascript_basics
 include::01e_javascript/basics/01e_javascript_basics.adoc[]
+
+:imagesdir: 01e_javascript/app/01e_javascript_app
+include::01e_javascript/app/01e_javascript_app.adoc[]

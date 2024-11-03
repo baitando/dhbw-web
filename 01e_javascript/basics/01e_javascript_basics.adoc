@@ -1,4 +1,4 @@
-== Übungsaufgabe 2 zu Modul 1b (Auffrischung Javascript)
+== Übungsaufgabe zu Modul 1e (Javascript: Grundlagen)
 
 Diese Aufgabe dient der Übung grundlegender Javascript-Anweisungen.
 
@@ -30,5 +30,5 @@ Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browser
 
 Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201c%20%28HTML%20und%20DOM%3A%20Grundlagen%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
 

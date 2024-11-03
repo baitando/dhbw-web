@@ -1,0 +1,53 @@
+== Übungsaufgabe zu Modul 1e (Javascript: App)
+
+In dieser Übungsaufgabe werden die bestehenden HTML-Dokumente und CSS-Dateien verwendet.
+Zusätzlich wird nun das dynamische Verhalten mit Javascript implementiert.
+Die Daten werden dabei lokal am Client gespeichert.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial
+
+|`<initial-ide`
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/initial?file=index.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&initialpath=index.html
+|===
+
+=== Aufgabenbeschreibung
+
+. Implementieren Sie die dynamische Funktionalität der Seite für die Aufgabenanlage.
+    .. Verknüpfen Sie den Button „Anlegen“ mit einer neuen Javascript-Funktion, die beim Klick auf den Button ausgeführt wird.
+    .. Die Funktion soll die Werte der Eingabefelder auslesen. Mit diesen Daten wird anschließend ein neues Objekt angelegt.
+    .. Speichern Sie dieses neue Objekt im Local Storage. Nutzen Sie hierfür ein Array, an das der neue Eintrag angefügt wird. Beachten Sie, dass Sie das Array vor dem Speichern im Local Storage erst in das JSON-Format umwandeln müssen. Sollte dieses Array noch nicht existieren, wird ein neues angelegt. Falls das Array bereits im Local Storage existiert, wird es ausgelesen, um den neuen Eintrag ergänzt und dann wieder gespeichert.
+    .. Sobald das Array gespeichert ist, leiten Sie den Browser auf die Seite mit der Aufgabenliste weiter.
+. Implementieren Sie die dynamische Funktionalität zum Laden der Einträge auf der Seite für die Aufgabenliste.
+    .. Legen Sie eine neue Javascript-Funktion an, die beim Laden der Seite ausgeführt wird.
+    .. Laden Sie in dieser Funktion das Array mit den Aufgabeneinträgen. Deserialisieren Sie den gespeicherten String damit Sie mit einem Javascript-Array weiterarbeiten können. Beachten Sie auch, dass dieses Array unter Umständen noch gar nicht im Local Storage existiert.
+    .. Erzeugen Sie für jede Aufgabe im Array die entsprechenden HTML-Elemente eines Listen-Eintrags und fügen Sie den neuen Eintrag an die Aufgabenliste (gemeint ist das ul-Element) an.
+. Implementieren Sie die dynamische Funktionalität zum Abhaken einer Aufgabe.
+    .. Legen Sie eine neue Javascript-Funktion an, die beim Klick auf die Checkbox (bzw. das Bild mit der Checkbox) einer Aufgabe ausgeführt wird. Beachten Sie, dass die Funktion einen Parameter benötigt, mit der der Eintrag eindeutig identifiziert werden kann.
+    .. In der Funktion nutzen Sie den Parameter, um den entsprechenden Eintrag aus der HTML-Liste zu entfernen. Denken Sie auch daran, die Aufgabe aus dem Array im Local Storage zu löschen.
+
+Optional können Sie die folgenden Schritte zusätzlich umsetzen:
+
+. Kopieren Sie die HTML-Datei der Seite für die Aufgabenanlage und nennen Sie die neue Datei bearbeitung.html. Passen Sie den Titel der Seite, die Überschrift und die Beschriftung des Buttons entsprechend den Wireframes an.
+. Sorgen Sie auf der Seite mit der Aufgabenliste dafür, dass der Klick auf das Bearbeiten-Symbol auf die Seite für die Aufgabenanlage weiterleitet und nun zusätzlich ein identifizierbares Merkmal als Query-Parameter übergibt.
+. Legen Sie eine neue Javascript-Funktion an. Sie soll ausgeführt werden, wenn die Seite für die Aufgabenbearbeitung aufgerufen wird.
+. Lesen Sie in dieser Funktion den Query-Parameter aus. Laden Sie mit diesem Merkmal den entsprechenden Eintrag aus dem Array im Local Storage. Denken Sie daran, dass dieser JSON-String wieder in ein JSON-Objekt umgewandelt werden muss.
+. Belegen Sie die Eingabefelder entsprechend dem geladenen Eintrag vor.
+. Legen Sie eine neue Javascript-Funktion an, die beim Speichern des Eintrags ausgeführt wird. Aktualisieren Sie dort den Eintrag im Local Storage.
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+
