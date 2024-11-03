@@ -49,5 +49,5 @@ Optional können Sie die folgenden Schritte zusätzlich umsetzen:
 
 Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result.
 
-Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/result?file=index.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
 
