@@ -1,0 +1,8 @@
+banner.jpg: https://unsplash.com/de/fotos/graue-betonstrasse-zwischen-grunen-baumen-unter-grauen-wolken-lbpVaF_esB4
+calendar.png: https://www.flaticon.com/free-icon/calendar_55281?term=calendar&page=1&position=8&page=1&position=8&related_id=55281&origin=style
+car.png: https://www.flaticon.com/de/kostenloses-icon/vorderes-auto_75689
+counter.png: https://www.flaticon.com/free-icon/counter_6434543?related_id=6434543&origin=search
+delete.png: https://www.flaticon.com/free-icon/delete_565491?term=delete&page=1&position=21&page=1&position=21&related_id=565491&origin=search
+dhbw-logo.png: https://www.dhbw-vs.de/files/img/DHBW_VS_footer_logo.png
+distance.png: https://www.flaticon.com/de/kostenloses-icon/distanz_7481955
+note.png: https://www.flaticon.com/de/kostenloses-icon/notiz_5634176
