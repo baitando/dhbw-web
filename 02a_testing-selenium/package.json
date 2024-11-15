@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "asserts": "^4.0.2",
-    "chromedriver": "^119.0.1",
+    "chromedriver": "^130.0.4",
     "mocha": "^10.1.0",
     "selenium-webdriver": "^4.0.0"
   }

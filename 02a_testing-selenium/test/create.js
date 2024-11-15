@@ -8,7 +8,7 @@ describe('Create Page', function () {
 
     beforeEach(async function () {
         driver = await new Builder().forBrowser('chrome').build()
-        await driver.get(`file://${process.cwd()}/../01e_javascript/uebung-2/result/anlage.html`);
+        await driver.get(`file://${process.cwd()}/../01e_javascript/app/result/anlage.html`);
     })
 
     afterEach(async function () {
