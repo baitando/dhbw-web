@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
 <meta name="author" content="Andreas Rehmann | DHBW Villingen-Schwenningen">
-<title>Übungen zur Web-Programmierung (Javascript)</title>
+<title>Übungen zur Web-Programmierung (Testing)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -437,7 +437,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Übungen zur Web-Programmierung (Javascript)</h1>
+<h1>Übungen zur Web-Programmierung (Testing)</h1>
 <div class="details">
 <span id="author" class="author">Andreas Rehmann | DHBW Villingen-Schwenningen</span><br>
 <span id="revnumber">version 2024-1</span>
@@ -451,14 +451,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_werkzeuge">Werkzeuge</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1e_javascript_grundlagen">1. Übungsaufgabe zu Modul 1e (Javascript: Grundlagen)</a>
+<li><a href="#_übungsaufgabe_zu_modul_2a_testing_grundlagen">1. Übungsaufgabe zu Modul 2a (Testing: Grundlagen)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter">1.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung">1.2. Aufgabenbeschreibung</a></li>
 <li><a href="#_lösungsbeispiel">1.3. Lösungsbeispiel</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1e_javascript_app">2. Übungsaufgabe zu Modul 1e (Javascript: App)</a>
+<li><a href="#_übungsaufgabe_zu_modul_2a_testing_app">2. Übungsaufgabe zu Modul 2a (Testing: App)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter_2">2.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung_2">2.2. Aufgabenbeschreibung</a></li>
@@ -656,10 +656,10 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1e_javascript_grundlagen">1. Übungsaufgabe zu Modul 1e (Javascript: Grundlagen)</h2>
+<h2 id="_übungsaufgabe_zu_modul_2a_testing_grundlagen">1. Übungsaufgabe zu Modul 2a (Testing: Grundlagen)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Diese Aufgabe dient der Übung grundlegender Javascript-Anweisungen.</p>
+<p>Diese Aufgabe dient der Übung, wie Unit-Tests mit Mocha und Chai erstellt werden können.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter">1.1. Platzhalter</h3>
@@ -680,15 +680,15 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/initial?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20Grundlagen%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/initial?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20Grundlagen%29&amp;initialpath=index.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial?file=test/tests.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20Grundlagen%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial?file=test/tests.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20Grundlagen%29&amp;initialpath=test/tests.html</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -698,12 +698,10 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Bearbeiten Sie die TODO-Kommentare im Code in der Reihenfolge ihrer Nummerierung.
-Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browsers.
-Überprüfen Sie insbesondere die Ausgaben auf der Entwicklerkonsole und führen Sie Ihre Anwendung mithilfe des Debuggers Schritt für Schritt aus.</p>
+<p>Bearbeiten Sie die Aufgaben (<code>TODO #1</code> bis <code>TODO #2</code>) auf der HTML-Seite <code>test/tests.html</code> in der Reihenfolge ihrer Nummerierung.</p>
 </li>
 <li>
-<p>Rekapitulieren Sie die Inhalte der bisher besprochenen Folien zum Thema Javascript und testen Sie einige der Anweisungen und Programmierkonstrukte.</p>
+<p>Bearbeiten Sie die Aufgaben (beginnend mit <code>TODO #3</code>) in der Javascript-Datei mit den Tests unter <code>test/tests.js</code> in der Reihenfolge ihrer Nummerierung.</p>
 </li>
 </ol>
 </div>
@@ -714,18 +712,22 @@ Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browser
 <p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/result?file=test/tests.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20App%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/result?file=test/tests.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20App%29&amp;initialpath=test/tests.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1e_javascript_app">2. Übungsaufgabe zu Modul 1e (Javascript: App)</h2>
+<h2 id="_übungsaufgabe_zu_modul_2a_testing_app">2. Übungsaufgabe zu Modul 2a (Testing: App)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In dieser Übungsaufgabe werden die bestehenden HTML-Dokumente und CSS-Dateien verwendet.
-Zusätzlich wird nun das dynamische Verhalten mit Javascript implementiert.
-Die Daten werden dabei lokal am Client gespeichert.</p>
+<p>In dieser Übungsaufgabe werden Unit-Tests für die bestehende Javascript-Funktionalität erstellt. Verwendet werden hierfür die Javascript-Frameworks Mocha (<a href="https://mochajs.org/" class="bare">https://mochajs.org/</a>) und Chai (<a href="https://www.chaijs.com/" class="bare">https://www.chaijs.com/</a>).</p>
+</div>
+<div class="paragraph">
+<p>Sie werden Funktionen der Frameworks nutzen, die auf keiner der Folien dargestellt waren. Werfen Sie aus diesem Grund auch einen Blick auf die Dokumentation der beiden Frameworks.</p>
+</div>
+<div class="paragraph">
+<p>Es wird außerdem nötig sein, Teile der bestehenden Skripte so umzubauen, dass Sie besser testbar werden.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter_2">2.1. Platzhalter</h3>
@@ -746,15 +748,15 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial?file=test/tests.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/initial?file=test/tests.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=test/tests.html</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -764,49 +766,39 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Implementieren Sie die dynamische Funktionalität der Seite für die Aufgabenanlage.</p>
+<p>Machen Sie sich mit dem bestehenden Test-Setup vertraut.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Verknüpfen Sie den Button „Anlegen“ mit einer neuen Javascript-Funktion, die beim Klick auf den Button ausgeführt wird.</p>
+<p>Werfen Sie einen Blick auf die Dateien <code>test/test.html</code> und <code>test/anlage_tests.js</code>.</p>
 </li>
 <li>
-<p>Die Funktion soll die Werte der Eingabefelder auslesen. Mit diesen Daten wird anschließend ein neues Objekt angelegt.</p>
+<p>Öffnen Sie die Datei <code>test/test.html</code> im Browser und sehen Sie sich das Ergebnis an.</p>
 </li>
 <li>
-<p>Speichern Sie dieses neue Objekt im Local Storage. Nutzen Sie hierfür ein Array, an das der neue Eintrag angefügt wird. Beachten Sie, dass Sie das Array vor dem Speichern im Local Storage erst in das JSON-Format umwandeln müssen. Sollte dieses Array noch nicht existieren, wird ein neues angelegt. Falls das Array bereits im Local Storage existiert, wird es ausgelesen, um den neuen Eintrag ergänzt und dann wieder gespeichert.</p>
-</li>
-<li>
-<p>Sobald das Array gespeichert ist, leiten Sie den Browser auf die Seite mit der Aufgabenliste weiter.</p>
+<p>Nehmen Sie temporär eine Änderung im erwarteten Ergebnis des Testfalls in <code>test/anlage.js</code> vor und prüfen Sie, wie sich die Ausgabe im Browser dadurch verändert.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
-<p>Implementieren Sie die dynamische Funktionalität zum Laden der Einträge auf der Seite für die Aufgabenliste.</p>
+<p>Implementieren Sie in <code>test/anlage_tests.js</code> einen neuen Testfall für die Methode replaceTask. Es soll geprüft werden, ob ein Task in der Task-Liste erfolgreich ersetzt werden kann.</p>
+</li>
+<li>
+<p>Implementieren Sie eine neue Test-Gruppe in der Datei <code>test/common_tests.js</code>, die dem Test der Funktionalitäten aus der Datei <code>js/common.js</code> dienen soll.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Laden der Seite ausgeführt wird.</p>
+<p>Legen Sie die neue Datei an und implementieren Sie den Grundaufbau.</p>
 </li>
 <li>
-<p>Laden Sie in dieser Funktion das Array mit den Aufgabeneinträgen. Deserialisieren Sie den gespeicherten String damit Sie mit einem Javascript-Array weiterarbeiten können. Beachten Sie auch, dass dieses Array unter Umständen noch gar nicht im Local Storage existiert.</p>
+<p>Erstellen Sie die Grundstruktur für einen neuen Testfall, der sicherstellen soll, dass die Methode loadStoredTasks die gespeicherten Daten aus dem Local Storage liefert.</p>
 </li>
 <li>
-<p>Erzeugen Sie für jede Aufgabe im Array die entsprechenden HTML-Elemente eines Listen-Eintrags und fügen Sie den neuen Eintrag an die Aufgabenliste (gemeint ist das ul-Element) an.</p>
-</li>
-</ol>
-</div>
+<p>Ändern Sie die Funktion <code>loadStoredTasks</code> so ab, dass beim Funktionsaufruf ein optionaler Parameter mit dem Schlüssel des Eintrages im Local Storage übergeben werden kann. Hinweis: Die Signatur mit optionalem Parameter entspricht <code>function loadStoredTasks(storageKey = "tasks")</code></p>
 </li>
 <li>
-<p>Implementieren Sie die dynamische Funktionalität zum Abhaken einer Aufgabe.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Klick auf die Checkbox (bzw. das Bild mit der Checkbox) einer Aufgabe ausgeführt wird. Beachten Sie, dass die Funktion einen Parameter benötigt, mit der der Eintrag eindeutig identifiziert werden kann.</p>
-</li>
-<li>
-<p>In der Funktion nutzen Sie den Parameter, um den entsprechenden Eintrag aus der HTML-Liste zu entfernen. Denken Sie auch daran, die Aufgabe aus dem Array im Local Storage zu löschen.</p>
+<p>Implementieren Sie den Testfall, für den Sie bereits die Grundstruktur erstellt haben. Speichern Sie vor dem Aufruf der Methode <code>loadStoredTasks</code> einen JSON-String mit den gewünschten Eingabe-Daten im Local Storage und verwenden Sie dafür einen Schlüssel, der sich vom regulären Schlüssel „tasks“ unterscheidet.</p>
 </li>
 </ol>
 </div>
@@ -819,22 +811,10 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Kopieren Sie die HTML-Datei der Seite für die Aufgabenanlage und nennen Sie die neue Datei bearbeitung.html. Passen Sie den Titel der Seite, die Überschrift und die Beschriftung des Buttons entsprechend den Wireframes an.</p>
+<p>Erstellen Sie weitere Testfälle für die bestehenden Javascript-Funktionalitäten der TODO-Anwendung.</p>
 </li>
 <li>
-<p>Sorgen Sie auf der Seite mit der Aufgabenliste dafür, dass der Klick auf das Bearbeiten-Symbol auf die Seite für die Aufgabenanlage weiterleitet und nun zusätzlich ein identifizierbares Merkmal als Query-Parameter übergibt.</p>
-</li>
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an. Sie soll ausgeführt werden, wenn die Seite für die Aufgabenbearbeitung aufgerufen wird.</p>
-</li>
-<li>
-<p>Lesen Sie in dieser Funktion den Query-Parameter aus. Laden Sie mit diesem Merkmal den entsprechenden Eintrag aus dem Array im Local Storage. Denken Sie daran, dass dieser JSON-String wieder in ein JSON-Objekt umgewandelt werden muss.</p>
-</li>
-<li>
-<p>Belegen Sie die Eingabefelder entsprechend dem geladenen Eintrag vor.</p>
-</li>
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Speichern des Eintrags ausgeführt wird. Aktualisieren Sie dort den Eintrag im Local Storage.</p>
+<p>Verwenden Sie die Selenium IDE, um automatisierte Systemtests mit Selenium aufzuzeichnen. Führen Sie die aufgezeichneten Testfälle auch aus und provozieren Sie einen Fehler, indem Sie temporäre Änderungen in der TODO-Anwendung vornehmen.</p>
 </li>
 </ol>
 </div>
@@ -842,10 +822,10 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="sect2">
 <h3 id="_lösungsbeispiel_2">2.3. Lösungsbeispiel</h3>
 <div class="paragraph">
-<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result</a>.</p>
+<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result?file=test/tests.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20App%29&amp;initialpath=test/tests.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result?file=test/tests.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20App%29&amp;initialpath=test/tests.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
