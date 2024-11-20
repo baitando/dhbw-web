@@ -1,0 +1,32 @@
+== Übungsaufgabe zu Modul 2a (Testing: Grundlagen)
+
+Diese Aufgabe dient der Übung, wie Unit-Tests mit Mocha und Chai erstellt werden können.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial
+
+|`<initial-ide`
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/initial?file=test/tests.html&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20Grundlagen%29&initialpath=test/tests.html
+|===
+
+=== Aufgabenbeschreibung
+
+. Bearbeiten Sie die Aufgaben (`TODO #1` bis `TODO #2`) auf der HTML-Seite `test/tests.html` in der Reihenfolge ihrer Nummerierung.
+. Bearbeiten Sie die Aufgaben (beginnend mit `TODO #3`) in der Javascript-Datei mit den Tests unter `test/tests.js` in der Reihenfolge ihrer Nummerierung.
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/basics/result?file=test/tests.html&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202a%20%28Testing%3A%20App%29&initialpath=test/tests.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+

@@ -1,0 +1,19 @@
+= Übungen zur Web-Programmierung (Testing)
+Andreas Rehmann | DHBW Villingen-Schwenningen
+v2024-1
+:sectnums:
+:!chapter-signifier:
+:doctype: book
+:toc: left
+:toc-title: Inhaltsverzeichnis
+
+:!sectnums:
+:imagesdir: 00-intro
+include::00-intro/00-intro.adoc[]
+
+:sectnums:
+:imagesdir: 02a_testing-mocha-chai/basics/02a_testing-mocha-chai_basics
+include::02a_testing-mocha-chai/basics/02a_testing_basics.adoc[]
+
+:imagesdir: 02a_testing-mocha-chai/app/02a_testing-mocha-chai_app
+include::02a_testing-mocha-chai/app/02a_testing_app.adoc[]
