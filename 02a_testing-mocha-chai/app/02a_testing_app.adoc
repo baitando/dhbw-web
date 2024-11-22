@@ -28,7 +28,7 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 . Machen Sie sich mit dem bestehenden Test-Setup vertraut.
     .. Werfen Sie einen Blick auf die Dateien `test/test.html` und `test/anlage_tests.js`.
     .. Öffnen Sie die Datei `test/test.html` im Browser und sehen Sie sich das Ergebnis an.
-    .. Nehmen Sie temporär eine Änderung im erwarteten Ergebnis des Testfalls in `test/anlage.js` vor und prüfen Sie, wie sich die Ausgabe im Browser dadurch verändert.
+    .. Nehmen Sie temporär eine Änderung im erwarteten Ergebnis des Testfalls in `test/anlage_tests.js` vor und prüfen Sie, wie sich die Ausgabe im Browser dadurch verändert.
 . Implementieren Sie in `test/anlage_tests.js` einen neuen Testfall für die Methode replaceTask. Es soll geprüft werden, ob ein Task in der Task-Liste erfolgreich ersetzt werden kann.
 . Implementieren Sie eine neue Test-Gruppe in der Datei `test/common_tests.js`, die dem Test der Funktionalitäten aus der Datei `js/common.js` dienen soll.
     .. Legen Sie die neue Datei an und implementieren Sie den Grundaufbau.
