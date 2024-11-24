@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
 <meta name="author" content="Andreas Rehmann | DHBW Villingen-Schwenningen">
-<title>Übungen zur Web-Programmierung (Javascript)</title>
+<title>Übungen zur Web-Programmierung (APIs)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -437,7 +437,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Übungen zur Web-Programmierung (Javascript)</h1>
+<h1>Übungen zur Web-Programmierung (APIs)</h1>
 <div class="details">
 <span id="author" class="author">Andreas Rehmann | DHBW Villingen-Schwenningen</span><br>
 <span id="revnumber">version 2024-1</span>
@@ -451,14 +451,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_werkzeuge">Werkzeuge</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1e_javascript_grundlagen">1. Übungsaufgabe zu Modul 1e (Javascript: Grundlagen)</a>
+<li><a href="#_übungsaufgabe_zu_modul_2b_apis_dokumentation">1. Übungsaufgabe zu Modul 2b (APIs: Dokumentation)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter">1.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung">1.2. Aufgabenbeschreibung</a></li>
 <li><a href="#_lösungsbeispiel">1.3. Lösungsbeispiel</a></li>
 </ul>
 </li>
-<li><a href="#_übungsaufgabe_zu_modul_1e_javascript_app">2. Übungsaufgabe zu Modul 1e (Javascript: App)</a>
+<li><a href="#_übungsaufgabe_zu_modul_2b_apis_app">2. Übungsaufgabe zu Modul 2b (APIs: App)</a>
 <ul class="sectlevel2">
 <li><a href="#_platzhalter_2">2.1. Platzhalter</a></li>
 <li><a href="#_aufgabenbeschreibung_2">2.2. Aufgabenbeschreibung</a></li>
@@ -656,10 +656,10 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1e_javascript_grundlagen">1. Übungsaufgabe zu Modul 1e (Javascript: Grundlagen)</h2>
+<h2 id="_übungsaufgabe_zu_modul_2b_apis_dokumentation">1. Übungsaufgabe zu Modul 2b (APIs: Dokumentation)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Diese Aufgabe dient der Übung grundlegender Javascript-Anweisungen.</p>
+<p>In dieser Übungsaufgabe geht es um die Spezifikation von REST APIs im OpenAPI-Format sowie die Nutzung der Werkzeuge Swagger Editor und Swagger UI.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter">1.1. Platzhalter</h3>
@@ -680,15 +680,15 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/02b_apis/docs/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/02b_apis/docs/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/docs/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/docs/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/initial?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20Grundlagen%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/initial?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20Grundlagen%29&amp;initialpath=index.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02d_apis/uebung-1/initial/todo.yaml" class="bare">https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02d_apis/uebung-1/initial/todo.yaml</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -698,12 +698,57 @@ In diesem Fall reicht ein Web-Browser auf Ihrem Rechner aus.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Bearbeiten Sie die TODO-Kommentare im Code in der Reihenfolge ihrer Nummerierung.
-Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browsers.
-Überprüfen Sie insbesondere die Ausgaben auf der Entwicklerkonsole und führen Sie Ihre Anwendung mithilfe des Debuggers Schritt für Schritt aus.</p>
+<p>Öffnen Sie die vorhandene Spezifikation mit dem Swagger-Editor und legen Sie eine neue App an.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>b.	Machen Sie sich mit der bestehenden Spezifikation vertraut, indem Sie sich die Inhalte auf der linken Seite und deren Visualisierung auf der rechten Seite ansehen.</p>
 </li>
 <li>
-<p>Rekapitulieren Sie die Inhalte der bisher besprochenen Folien zum Thema Javascript und testen Sie einige der Anweisungen und Programmierkonstrukte.</p>
+<p>c.	Legen Sie eine neue App an, indem Sie in der Swagger UI zum entsprechenden Eintrag navigieren, dort auf „Try it out“ und anschließend „Execute“ klicken. Kopieren</p>
+<div class="paragraph">
+<p>Sie sich den apiKey aus der Antwort.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="02b_apis/docs/screenshots/swagger-ui.png" alt="swagger ui">
+</div>
+</div>
+</li>
+<li>
+<p>Gehen Sie ähnlich vor, um mithilfe der Swagger UI zwei Aufgaben über die API anzulegen. Tragen Sie als Wert für das Eingabefeld „x-api-key“ den apiKey ein, den Sie vorhin kopiert hatten. In der großen Eingabebox können Sie die JSON-Eingabedaten für den Request modifizieren.</p>
+</li>
+<li>
+<p>Fragen Sie nun analog die Liste aller Einträge über die Swagger UI ab. Prüfen Sie, ob die Liste die von Ihnen angelegten Einträge enthält.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Erweitern Sie die API-Spezifikation nun um die Möglichkeit, alle Aufgaben zu löschen. Die API am Server sieht das bereits vor. Hier geht es darum, dass Sie die Spezifikation entsprechend ändern. Die Änderungen sind dann richtig, wenn Sie über die Swagger UI eine erfolgreiche Rückmeldung vom Server erhalten.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Modifizieren Sie die Spezifikation im offenen Swagger Editor so, dass alle Aufgaben gelöscht werden. Die HTTP-Methode ist <code>DELETE</code>, der Pfad lautet <code>/tasks</code>, Eingabeparameter ist der <code>x-api-key</code> im Header. Die Rückgabe hat keinen Inhalt und HTTP-Status <code>204</code>. Sie können Sie in der Spezifikation an der Abfrage aller Aufgaben orientieren. Da der Pfad bereits existiert, müssen Sie hier neben den bestehenden <code>POST</code> und <code>GET</code> Methoden noch die <code>DELETE</code> Methode einfügen.</p>
+</li>
+<li>
+<p>Prüfen Sie die Funktionsfähigkeit, indem Sie erst alle Aufgabe löschen und anschließend prüfen, ob die Liste aller Aufgaben (siehe vorherige Aufgabe) leer ist.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Erweitern Sie die API-Spezifikation nun um die Möglichkeit, eine einzelne Aufgabe zu löschen. Die API am Server sieht das bereits vor. Hier geht es darum, dass Sie die Spezifikation entsprechend ändern. Die Änderungen sind dann richtig, wenn Sie über die Swagger UI eine erfolgreiche Rückmeldung vom Server erhalten.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Modifizieren Sie die Spezifikation im offenen Swagger Editor so, dass eine einzelne Aufgabe anhand der ID gelöscht wird. Die HTTP-Methode ist <code>DELETE</code>, der Pfad lautet <code>/tasks/{task_id}</code>, Eingabeparameter sind der <code>x-api-key</code> im Header und die <code>task_id</code> im Path. Die Rückgabe hat keinen Inhalt und HTTP-Status <code>204</code>. Sie können Sie in der Spezifikation am Aktualisieren einer einzelnen Aufgabe orientieren. Da der Pfad bereits existiert, müssen Sie hier neben den bestehenden <code>PUT</code> und <code>GET</code> Methoden noch die <code>DELETE</code> Methode einfügen.</p>
+</li>
+<li>
+<p>Prüfen Sie die Funktionsfähigkeit, indem Sie erst alle Aufgabe löschen und anschließend prüfen, ob die Liste aller Aufgaben (siehe vorherige Aufgabe) leer ist.</p>
+</li>
+</ol>
+</div>
 </li>
 </ol>
 </div>
@@ -711,21 +756,19 @@ Nutzen Sie hierzu auch die Hilfsmittel aus der Entwicklerwerkzeuge Ihres Browser
 <div class="sect2">
 <h3 id="_lösungsbeispiel">1.3. Lösungsbeispiel</h3>
 <div class="paragraph">
-<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/basics/result</a>.</p>
+<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/blob/master/02a_apis/docs/result/todo.yaml" class="bare">https://github.com/baitando/dhbw-web/blob/master/02a_apis/docs/result/todo.yaml</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/basics/result?file=js/spielwiese.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02b_apis/docs/result/todo.yaml" class="bare">https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02b_apis/docs/result/todo.yaml</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_übungsaufgabe_zu_modul_1e_javascript_app">2. Übungsaufgabe zu Modul 1e (Javascript: App)</h2>
+<h2 id="_übungsaufgabe_zu_modul_2b_apis_app">2. Übungsaufgabe zu Modul 2b (APIs: App)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In dieser Übungsaufgabe werden die bestehenden HTML-Dokumente und CSS-Dateien verwendet.
-Zusätzlich wird nun das dynamische Verhalten mit Javascript implementiert.
-Die Daten werden dabei lokal am Client gespeichert.</p>
+<p>In dieser Übungsaufgabe wird die aus der vorherigen Übung bekannte API an die TODO-Webanwendung angebunden. Der Zugriff auf die API erfolgt mittels der in der Vorlesung behandelten Fetch-API.</p>
 </div>
 <div class="sect2">
 <h3 id="_platzhalter_2">2.1. Platzhalter</h3>
@@ -746,15 +789,15 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-github&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial" class="bare">https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-download&gt;</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/initial</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial" class="bare">https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>&lt;initial-ide</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/initial?file=index.html&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/initial?file=js/common.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/initial?file=js/common.js&amp;terminal=stackblitz&amp;title=%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&amp;initialpath=index.html</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -764,49 +807,39 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Implementieren Sie die dynamische Funktionalität der Seite für die Aufgabenanlage.</p>
+<p>Machen Sie sich mit der vorhandenen Implementierung für das Laden aller Einträge vom Server vertraut.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Verknüpfen Sie den Button „Anlegen“ mit einer neuen Javascript-Funktion, die beim Klick auf den Button ausgeführt wird.</p>
+<p>Werfen Sie einen Blick auf die Dateien js/liste.js und js/common.js.</p>
 </li>
 <li>
-<p>Die Funktion soll die Werte der Eingabefelder auslesen. Mit diesen Daten wird anschließend ein neues Objekt angelegt.</p>
+<p>Ersetzen Sie den API-Key in der js/common.js mit ihrem eigenen aus der vorherigen Aufgabe. Falls Sie diesen nicht mehr zur Hand haben, können Sie jederzeit eine neue App über die API anlegen (siehe ebenfalls vorherige Übungsaufgabe).</p>
 </li>
 <li>
-<p>Speichern Sie dieses neue Objekt im Local Storage. Nutzen Sie hierfür ein Array, an das der neue Eintrag angefügt wird. Beachten Sie, dass Sie das Array vor dem Speichern im Local Storage erst in das JSON-Format umwandeln müssen. Sollte dieses Array noch nicht existieren, wird ein neues angelegt. Falls das Array bereits im Local Storage existiert, wird es ausgelesen, um den neuen Eintrag ergänzt und dann wieder gespeichert.</p>
+<p>Nutzen Sie ebenfalls wie in der vorherigen Übungsaufgabe die API, um 3 Aufgaben anzulegen.</p>
 </li>
 <li>
-<p>Sobald das Array gespeichert ist, leiten Sie den Browser auf die Seite mit der Aufgabenliste weiter.</p>
+<p>Öffnen Sie die Datei liste.html im Browser. Falls alles korrekt funktioniert, sollten Sie nun die 3 Aufgaben in der Liste sehen, die sie über die API angelegt hatten.</p>
+</li>
+<li>
+<p>Starten Sie die Entwicklerwerkzeuge im Browser. Wechseln Sie auf den Bereich Netzwerk und laden Sie die Datei liste.html neu. Sie sollten nun den Aufruf in Richtung des Servers sehen. Untersuchen Sie Request und Response dieses Aufrufes.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
-<p>Implementieren Sie die dynamische Funktionalität zum Laden der Einträge auf der Seite für die Aufgabenliste.</p>
+<p>Laden Sie die Daten einer Aufgabe vom Server, wenn in die Aufgabenbearbeitung gewechselt wird.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Laden der Seite ausgeführt wird.</p>
+<p>Öffnen Sie die Datei js/anlage.js.</p>
 </li>
 <li>
-<p>Laden Sie in dieser Funktion das Array mit den Aufgabeneinträgen. Deserialisieren Sie den gespeicherten String damit Sie mit einem Javascript-Array weiterarbeiten können. Beachten Sie auch, dass dieses Array unter Umständen noch gar nicht im Local Storage existiert.</p>
+<p>Passen Sie die Funktion getTaskById so an, dass die Daten zur Aufgabe anhand der ID vom Server geladen werden. Stellen Sie sicher, dass Sie Ihren API-Key verwenden. Orientieren Sie sich an der Funktion loadStoredTasks in js/common.js. Die Rückgabe der Funktion getTaskById wird nun ebenfalls ein Promise sein.</p>
 </li>
 <li>
-<p>Erzeugen Sie für jede Aufgabe im Array die entsprechenden HTML-Elemente eines Listen-Eintrags und fügen Sie den neuen Eintrag an die Aufgabenliste (gemeint ist das ul-Element) an.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Implementieren Sie die dynamische Funktionalität zum Abhaken einer Aufgabe.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Klick auf die Checkbox (bzw. das Bild mit der Checkbox) einer Aufgabe ausgeführt wird. Beachten Sie, dass die Funktion einen Parameter benötigt, mit der der Eintrag eindeutig identifiziert werden kann.</p>
-</li>
-<li>
-<p>In der Funktion nutzen Sie den Parameter, um den entsprechenden Eintrag aus der HTML-Liste zu entfernen. Denken Sie auch daran, die Aufgabe aus dem Array im Local Storage zu löschen.</p>
+<p>Bauen Sie die Funktion initialize in js/anlage.js so um, dass das Promise korrekt ausgewertet wird. Orientieren Sie sich an der Funktion initialize in js/liste.js.</p>
 </li>
 </ol>
 </div>
@@ -819,22 +852,10 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Kopieren Sie die HTML-Datei der Seite für die Aufgabenanlage und nennen Sie die neue Datei bearbeitung.html. Passen Sie den Titel der Seite, die Überschrift und die Beschriftung des Buttons entsprechend den Wireframes an.</p>
+<p>Speichern Sie eine neu angelegte Aufgabe über die REST API.</p>
 </li>
 <li>
-<p>Sorgen Sie auf der Seite mit der Aufgabenliste dafür, dass der Klick auf das Bearbeiten-Symbol auf die Seite für die Aufgabenanlage weiterleitet und nun zusätzlich ein identifizierbares Merkmal als Query-Parameter übergibt.</p>
-</li>
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an. Sie soll ausgeführt werden, wenn die Seite für die Aufgabenbearbeitung aufgerufen wird.</p>
-</li>
-<li>
-<p>Lesen Sie in dieser Funktion den Query-Parameter aus. Laden Sie mit diesem Merkmal den entsprechenden Eintrag aus dem Array im Local Storage. Denken Sie daran, dass dieser JSON-String wieder in ein JSON-Objekt umgewandelt werden muss.</p>
-</li>
-<li>
-<p>Belegen Sie die Eingabefelder entsprechend dem geladenen Eintrag vor.</p>
-</li>
-<li>
-<p>Legen Sie eine neue Javascript-Funktion an, die beim Speichern des Eintrags ausgeführt wird. Aktualisieren Sie dort den Eintrag im Local Storage.</p>
+<p>Aktualisieren Sie eine Aufgabe über die REST API, wenn Sie bearbeitet wurde.</p>
 </li>
 </ol>
 </div>
@@ -842,10 +863,10 @@ Die Daten werden dabei lokal am Client gespeichert.</p>
 <div class="sect2">
 <h3 id="_lösungsbeispiel_2">2.3. Lösungsbeispiel</h3>
 <div class="paragraph">
-<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/01e_javascript/app/result</a>.</p>
+<p>Eine beispielhafte Lösung finden Sie auf GitHub unter <a href="https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result" class="bare">https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result</a>.</p>
 </div>
 <div class="paragraph">
-<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/01e_javascript/app/result?file=index.html&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%201e%20%28Javascript%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
+<p>Sie können dieses Lösungsbeispiel durch Öffnen der URL <a href="https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/result?file=js/commons.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&amp;initialpath=index.html" class="bare">https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/result?file=js/commons.js&amp;terminal=stackblitz&amp;title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&amp;initialpath=index.html</a> im Browser direkt in der Online-Entwicklungsumgebung betrachten.</p>
 </div>
 </div>
 </div>
