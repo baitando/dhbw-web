@@ -1,0 +1,45 @@
+== Übungsaufgabe zu Modul 2b (APIs: App)
+
+In dieser Übungsaufgabe wird die aus der vorherigen Übung bekannte API an die TODO-Webanwendung angebunden. Der Zugriff auf die API erfolgt mittels der in der Vorlesung behandelten Fetch-API.
+
+=== Platzhalter
+
+Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführung zu den Übungen erwähnt sind.
+
+|===
+|Platzhalter |Wert
+
+|`<initial-github>`
+|https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial
+
+|`<initial-download>`
+|https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/initial
+
+|`<initial-ide`
+|https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/initial?file=js/common.js&terminal=stackblitz&title=%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&initialpath=index.html
+|===
+
+=== Aufgabenbeschreibung
+
+. Machen Sie sich mit der vorhandenen Implementierung für das Laden aller Einträge vom Server vertraut.
+    .. Werfen Sie einen Blick auf die Dateien js/liste.js und js/common.js.
+    .. Ersetzen Sie den API-Key in der js/common.js mit ihrem eigenen aus der vorherigen Aufgabe. Falls Sie diesen nicht mehr zur Hand haben, können Sie jederzeit eine neue App über die API anlegen (siehe ebenfalls vorherige Übungsaufgabe).
+    .. Nutzen Sie ebenfalls wie in der vorherigen Übungsaufgabe die API, um 3 Aufgaben anzulegen.
+    .. Öffnen Sie die Datei liste.html im Browser. Falls alles korrekt funktioniert, sollten Sie nun die 3 Aufgaben in der Liste sehen, die sie über die API angelegt hatten.
+    .. Starten Sie die Entwicklerwerkzeuge im Browser. Wechseln Sie auf den Bereich Netzwerk und laden Sie die Datei liste.html neu. Sie sollten nun den Aufruf in Richtung des Servers sehen. Untersuchen Sie Request und Response dieses Aufrufes.
+. Laden Sie die Daten einer Aufgabe vom Server, wenn in die Aufgabenbearbeitung gewechselt wird.
+    .. Öffnen Sie die Datei js/anlage.js.
+    .. Passen Sie die Funktion getTaskById so an, dass die Daten zur Aufgabe anhand der ID vom Server geladen werden. Stellen Sie sicher, dass Sie Ihren API-Key verwenden. Orientieren Sie sich an der Funktion loadStoredTasks in js/common.js. Die Rückgabe der Funktion getTaskById wird nun ebenfalls ein Promise sein.
+    .. Bauen Sie die Funktion initialize in js/anlage.js so um, dass das Promise korrekt ausgewertet wird. Orientieren Sie sich an der Funktion initialize in js/liste.js.
+
+Optional können Sie die folgenden Schritte zusätzlich umsetzen:
+
+. Speichern Sie eine neu angelegte Aufgabe über die REST API.
+.	Aktualisieren Sie eine Aufgabe über die REST API, wenn Sie bearbeitet wurde.
+
+=== Lösungsbeispiel
+
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result.
+
+Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/result?file=js/commons.js&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
+
