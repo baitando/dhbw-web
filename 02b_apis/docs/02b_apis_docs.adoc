@@ -16,7 +16,7 @@ Nachfolgend sind die spezifischen Parameter, die in der grundlegenden Einführun
 |https://baitando.github.io/down-git/#/home?url=https://github.com/baitando/dhbw-web/tree/main/02b_apis/docs/initial
 
 |`<initial-ide`
-|https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02d_apis/uebung-1/initial/todo.yaml
+|https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02b_apis/docs/initial/todo.yaml
 |===
 
 === Aufgabenbeschreibung
@@ -40,7 +40,7 @@ image::screenshots/swagger-ui.png[align="center"]
 
 === Lösungsbeispiel
 
-Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/blob/master/02a_apis/docs/result/todo.yaml.
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/blob/master/02b_apis/docs/result/todo.yaml.
 
 Sie können dieses Lösungsbeispiel durch Öffnen der URL https://editor.swagger.io/?url=https://raw.githubusercontent.com/baitando/dhbw-web/master/02b_apis/docs/result/todo.yaml im Browser direkt in der Online-Entwicklungsumgebung betrachten.
 
