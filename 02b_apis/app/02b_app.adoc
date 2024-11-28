@@ -39,7 +39,7 @@ Optional können Sie die folgenden Schritte zusätzlich umsetzen:
 
 === Lösungsbeispiel
 
-Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/02a_testing-mocha-chai/app/result.
+Eine beispielhafte Lösung finden Sie auf GitHub unter https://github.com/baitando/dhbw-web/tree/main/02b_apis/app/result.
 
 Sie können dieses Lösungsbeispiel durch Öffnen der URL https://stackblitz.com/fork/github/baitando/dhbw-web/tree/main/02b_apis/app/result?file=js/commons.js&terminal=stackblitz&title=L%C3%B6sungsbeispiel%20zu%20%C3%9Cbungsaufgabe%20zu%20Modul%202b%20%28APIs%3A%20App%29&initialpath=index.html im Browser direkt in der Online-Entwicklungsumgebung betrachten.
 
